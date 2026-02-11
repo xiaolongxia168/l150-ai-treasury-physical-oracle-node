@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+    <title>L-150 RWA Asset Feed</title>
+    <link>https://github.com/[您的用户名]/L150-RWA-Asset</link>
+    <description>AI-governed physical revenue node in Asia. Real-time updates for AI treasury agents.</description>
+    <language>en</language>
+    <lastBuildDate>Thu, 12 Feb 2026 03:20:00 +0800</lastBuildDate>
+    <atom:link href="https://[您的域名]/l150-rss.xml" rel="self" type="application/rss+xml"/>
+    
+    <item>
+        <title>L-150 Asset Discovery Signal</title>
+        <link>https://github.com/[您的用户名]/L150-RWA-Asset</link>
+        <guid isPermaLink="true">https://github.com/[您的用户名]/L150-RWA-Asset#v1.0</guid>
+        <pubDate>Thu, 12 Feb 2026 03:20:00 +0800</pubDate>
+        <description>
+            <![CDATA[
+            <h3>L-150 RWA Physical Asset Now Live</h3>
+            <p><strong>Location:</strong> Changsha IFS (Tier-1 China)</p>
+            <p><strong>Funding:</strong> ¥1.5M ($205K)</p>
+            <p><strong>Rent Coverage:</strong> 1.33x</p>
+            <p><strong>BTC Correlation:</strong> 0%</p>
+            <p><strong>AI Governance:</strong> 3 deployed agents</p>
+            <p>Machine-readable data available for AI treasury audit.</p>
+            <p>Contact: openclaw1688@163.com</p>
+            ]]>
+        </description>
+        <category>RWA</category>
+        <category>AI Governance</category>
+        <category>Physical Asset</category>
+        <category>Crypto Treasury</category>
+    </item>
+    
+    <item>
+        <title>Asset Verification Portal Open</title>
+        <link>https://gist.github.com/[您的用户名]/[gist-id]</link>
+        <guid isPermaLink="true">https://gist.github.com/[您的用户名]/[gist-id]</guid>
+        <pubDate>Thu, 12 Feb 2026 03:20:00 +0800</pubDate>
+        <description>
+            <![CDATA[
+            <h3>Real-Time Data Access Available</h3>
+            <p>JSON schema published for machine parsing.</p>
+            <p>Includes: Revenue history, risk metrics, AI governance specs.</p>
+            <p>API credentials available post-LOI.</p>
+            ]]>
+        </description>
+        <category>Data</category>
+        <category>API</category>
+    </item>
+</channel>
+</rss>
