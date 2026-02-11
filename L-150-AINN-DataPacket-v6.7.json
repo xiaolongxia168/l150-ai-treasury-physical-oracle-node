@@ -1,0 +1,170 @@
+{
+  "packet_metadata": {
+    "version": "v6.7-AINN-FINAL",
+    "classification": "URGENT_TIME_SENSITIVE",
+    "target": "AINN Layer2 Treasury",
+    "target_tvl": "$25M",
+    "packet_type": "RWA_Emergency_Funding_Proposal",
+    "timestamp": "2026-02-11T22:40:00+08:00",
+    "sender": "L-150 Command Center / Zhang Yueting",
+    "urgency_flag": "RENT_FREE_WINDOW_BURNING"
+  },
+  
+  "founder_dna": {
+    "name": "Zhang Yueting (张月廷)",
+    "industry": "Horror Escape Room / Immersive Entertainment",
+    "track_record": {
+      "historical_peak_monthly_revenue": "¥1,000,000+",
+      "personal_monthly_dividend": "¥200,000",
+      "consecutive_million_months": "2+",
+      "current_monthly_revenue": "¥300,000",
+      "peak_to_current_ratio": "33%",
+      "operation_years": 6
+    },
+    "cold_read": "Not 'potential'. Proven operator with ¥1M+ track record. Current ¥300K is hardware-limited floor, not ceiling."
+  },
+
+  "asset_profile": {
+    "name": "L-150 Horror Escape Room Complex",
+    "location": "300m from Changsha IFS (核心商圈)",
+    "total_area": "1,500 sqm",
+    "rebuild_scope": "900 sqm (Phase 1)",
+    "asset_class": "Immersive Horror Entertainment Venue",
+    "industry_vertical": "Escape Room / Live Action Gaming",
+    "lease_negotiation": {
+      "current_status": "20% rent reduction + 2-month rent-free period (LETTER OF INTENT)",
+      "activation_condition": "Investment commitment received",
+      "formal_contract": "Pending (requires funding proof to execute)",
+      "time_remaining": "1.5 months (CNY holiday consumed 0.5 month)",
+      "hard_deadline": "Before rent-free window expires"
+    },
+    "ownership_structure": {
+      "current": "Partial (acquiring remaining shares)",
+      "post_funding_target": "100% founder control",
+      "unlock_condition": "Investment commitment → share buyback execution"
+    }
+  },
+
+  "funding_structure": {
+    "total_project_cost": "¥3,000,000 (full 1,500sqm rebuild)",
+    "phase_1_scope": "900 sqm complete rebuild",
+    "raise_amount": "¥1,500,000",
+    "founder_capital": "¥500,000 (working capital + legacy theme optimization)",
+    "instrument": "Revenue-Based Financing (RBF) / Convertible Revenue Share",
+    "disbursement": "LUMP_SUM_UPFRONT (time-sensitive)",
+    "why_lump_sum": [
+      "1.5 months rent-free window remaining",
+      "Pre-CNY: Finalize design drawings",
+      "Post-CNY: Immediate construction start",
+      "Any delay = lost rent-free benefit + restored bargaining power to landlord"
+    ],
+    "fund_allocation": {
+      "new_theme_construction": "Primary (900 sqm rebuild)",
+      "legacy_optimization": "Secondary (remaining 600 sqm upgrade)",
+      "working_capital": "Founder ¥500K injection"
+    },
+    "investor_protection": {
+      "monthly_revenue_pre_deduction": true,
+      "priority_claim_on_cash_flow": true,
+      "collateral": "Revenue stream + venue leasehold rights",
+      "minimum_monthly_return_floor": "To be negotiated (based on ¥300K conservative base)"
+    }
+  },
+
+  "benchmark_validation": {
+    "reference_target": "Changsha V Factory (长沙V厂) - Horror/Escape Industry",
+    "v_factory_monthly_avg": "¥600,000",
+    "v_factory_historical_peak": "¥850,000",
+    "l150_historical_peak": "¥1,000,000+",
+    "conservative_commitment": "¥300,000 (50% of V Factory benchmark)",
+    "downside_buffer": "50%",
+    "upside_scenario": "¥1M+ already proven by same operator at same location"
+  },
+
+  "execution_timeline": {
+    "phase_pre_cny": {
+      "duration": "Immediate - CNY Eve",
+      "actions": ["Finalize architectural drawings", "Secure construction permits", "Lock material suppliers"],
+      "dependency": "Investment commitment received"
+    },
+    "phase_construction": {
+      "duration": "CNY + 1.5 months",
+      "actions": ["Demolition + rebuild 900 sqm", "Parallel legacy area optimization"],
+      "hard_constraint": "Must complete before rent-free expires"
+    },
+    "phase_launch": {
+      "duration": "Month 3",
+      "target": "New theme grand opening"
+    }
+  },
+
+  "ai_governance_layer": {
+    "value_proposition": "First AI-Governed Horror Entertainment Venue in Asia",
+    "agent_capabilities": [
+      "Dynamic Pricing Agent - demand-based ticket pricing (peak/off-peak)",
+      "Booking Optimization Agent - 48h capacity forecasting + staff scheduling",
+      "Theme Curation Agent - AI-generated horror narratives + room rotation",
+      "Customer Experience Agent - real-time difficulty adjustment + personalized scare intensity",
+      "Inventory Agent - prop/FX supply chain automation"
+    ],
+    "data_oracle": {
+      "booking_system_api": "Real-time occupancy data feed",
+      "pos_integration": "Revenue verification per session",
+      "camera_analytics": "Player behavior data (privacy-compliant)",
+      "review_sentiment": "Automated feedback processing"
+    }
+  },
+
+  "ainn_specific_fit": {
+    "strategic_alignment": "Bitcoin Layer2 + AI Agent + Asian RWA = Perfect Storm",
+    "why_ainn": [
+      "Hong Kong/Singapore base = physical DD feasible within 48h",
+      "Bitcoin treasury aligns with conservative asset backing",
+      "AI inscription narrative needs physical revenue anchor",
+      "Asian focus matches Changsha location (no timezone friction)"
+    ],
+    "fomo_triggers": {
+      "window_closing": "1.5 months rent-free remaining. Every week of delay = ¥50K+ opportunity cost.",
+      "first_mover": "First AI-governed horror venue RWA on Bitcoin Layer2.",
+      "exclusive_location": "IFS-grade location for immersive entertainment is non-replicable.",
+      "founder_leverage": "Investment commitment = 100% ownership + formal lease concessions. Without it, deal structure collapses."
+    }
+  },
+
+  "traction_proof": {
+    "current_status": "¥300K monthly (6-year-old hardware, partial renovation)",
+    "post_rebuild_projection": {
+      "month_3_target": "¥400,000",
+      "month_6_target": "¥600,000",
+      "month_12_target": "¥800,000+",
+      "historical_ceiling": "¥1,000,000+ (already proven)"
+    },
+    "payback_estimate": "18-24 months at conservative ¥300K floor"
+  },
+
+  "critical_path_dependencies": {
+    "investment_commitment": {
+      "unlocks": ["Share buyback completion", "Formal rent reduction contract", "Construction contractor lock"],
+      "without_it": ["Lease concessions expire", "Co-founder negotiation position weakens", "Project timeline unviable"]
+    },
+    "time_sensitivity": "CRITICAL - Rent-free window is non-renewable"
+  },
+
+  "ask": {
+    "primary": "¥1,500,000 lump-sum investment",
+    "structure": "Revenue-based financing with equity upside",
+    "tenor": "24-36 months",
+    "collateral": "Revenue stream + 900 sqm venue leasehold",
+    "use_of_proceeds": "Complete rebuild of 900 sqm horror escape complex",
+    "timeline_requirement": "Commitment within 7 days, funds within 14 days"
+  },
+
+  "next_steps": {
+    "immediate": "Data room access + financial verification",
+    "day_2_3": "Virtual venue tour + POS/booking system demo",
+    "day_4_5": "Term sheet negotiation",
+    "day_6_7": "Commitment letter / LOI",
+    "week_2": "Funds transfer + construction initiation",
+    "contingent_on": "AINN decision velocity matching rent-free window"
+  }
+}

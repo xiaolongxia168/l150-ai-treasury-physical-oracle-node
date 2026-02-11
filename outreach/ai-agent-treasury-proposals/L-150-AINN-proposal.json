@@ -1,0 +1,134 @@
+{
+  "$schema": "https://l150.io/schemas/proposal-v1.json",
+  "project_metadata": {
+    "code": "L-150",
+    "version": "6.0-AINN",
+    "timestamp": "2026-02-12T04:25:00+08:00",
+    "chain": "bitcoin-l2",
+    "asset_class": "RWA-Commercial-Real-Estate",
+    "risk_rating": 5.5,
+    "target_treasury": "AINN-Layer2-Treasury"
+  },
+  
+  "founder_identity": {
+    "name": "Zhang Yueting",
+    "legal_entities": [
+      {
+        "location": "Changsha, China",
+        "role": "Operating Entity",
+        "since": "2019",
+        "verification": "Business license + Tax records"
+      }
+    ],
+    "skin_in_game": {
+      "amount_usd": 75000,
+      "currency": "CNY",
+      "status": "Deployed"
+    }
+  },
+  
+  "physical_asset": {
+    "location": {
+      "city": "Changsha",
+      "district": "IFS Core District",
+      "proximity": "50 meters from IFS Tower",
+      "coordinates": [28.2282, 112.9388]
+    },
+    "space": {
+      "total_sqm": 1500,
+      "type": "Commercial Entertainment Venue",
+      "lease_status": "20%_Reduction_Negotiated",
+      "rent_free_period": "3 months"
+    },
+    "scarcity_metrics": {
+      "ifs_proximity_meters": 50,
+      "comparable_spaces_available": 0,
+      "irreplaceability_score": 9.2
+    }
+  },
+  
+  "cashflow_structure": {
+    "monthly_revenue_usd": 45000,
+    "revenue_verification": "POS_system_logs_24months + Bank_statements",
+    "dual_store_coverage": true,
+    "cost_optimization": {
+      "rent_reduction_percentage": 20,
+      "monthly_savings_usd": 9000,
+      "ebitda_improvement": "From negative to positive"
+    },
+    "profitability": {
+      "pre_optimization_margin": -0.15,
+      "post_optimization_margin": 0.22,
+      "dividend_coverage_ratio": 1.8
+    }
+  },
+  
+  "investment_terms": {
+    "total_raise_usd": 150000,
+    "tranches": [
+      {
+        "phase": 1,
+        "amount": 100000,
+        "milestone": "Renovation + Equipment upgrade",
+        "timeline_days": 90,
+        "control_mechanism": "Multi_sig_Bitcoin_L2"
+      },
+      {
+        "phase": 2,
+        "amount": 50000,
+        "milestone": "Soft_launch + Cashflow_positive",
+        "timeline_days": 180,
+        "control_mechanism": "Performance_based_release"
+      }
+    ],
+    "returns": {
+      "monthly_dividend_usd": 5000,
+      "annual_yield_pre_roi": 0.40,
+      "payback_period_months": 30,
+      "post_roi_structure": "Revenue_share_20_percent_after_ROI"
+    },
+    "security_features": {
+      "fund_control": "Bitcoin_L2_multi_sig + Threshold_signatures",
+      "dividend_priority": "Smart_contract_enforced_first_priority",
+      "clawback_period_days": 90,
+      "physical_collateral": "1500sqm_leasehold + Equipment_lien"
+    }
+  },
+  
+  "risk_mitigation": {
+    "execution_risk": {
+      "mitigation": "5_year_experienced_operator + Proven_revenue_model",
+      "control": "Monthly_Bitcoin_L2_reporting"
+    },
+    "policy_risk": {
+      "mitigation": "Full_PRC_compliance + Entertainment_license",
+      "onshore_compliance": "Registered_business + Tax_transparency"
+    },
+    "operational_risk": {
+      "mitigation": "Daily_cashflow_hash_to_Bitcoin_L2",
+      "verification": "Onchain_physical_oracle"
+    }
+  },
+  
+  "treasury_agent_signals": {
+    "rwa_compliance": true,
+    "real_cashflow": true,
+    "physical_oracle": true,
+    "negative_correlation": "Bitcoin_independent_cashflow",
+    "ai_governance_compatible": true,
+    "bitcoin_l2_ready": true,
+    "ainn_specific": {
+      "asia_focus": "Changsha_core_district_prime_location",
+      "bitcoin_yield": "40%_annual_yield_paid_in_Bitcoin_L2_tokens",
+      "rwa_on_btc": "First_Asian_entertainment_venue_on_Bitcoin_L2",
+      "asian_rwa_pipeline": "Gateway_to_more_China_RWA_deals"
+    }
+  },
+  
+  "ai_agent_hook": {
+    "why_ainn": "AINN needs Asian RWA deals for Bitcoin L2 yield. L-150 is first Asian entertainment venue.",
+    "asia_gateway": "Changsha as entry point to China RWA market. Pipeline potential.",
+    "bitcoin_yield": "40% APY paid via Bitcoin L2. Real yield on BTC infrastructure.",
+    "onchain_verification": "Daily cashflow hashes to Bitcoin L2. Transparent RWA backing."
+  }
+}

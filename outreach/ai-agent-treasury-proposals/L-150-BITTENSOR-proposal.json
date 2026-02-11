@@ -1,0 +1,121 @@
+{
+  "$schema": "https://l150.io/schemas/proposal-v1.json",
+  "project_metadata": {
+    "code": "L-150",
+    "version": "6.0-BITTENSOR",
+    "timestamp": "2026-02-12T04:25:00+08:00",
+    "chain": "bittensor",
+    "asset_class": "RWA-Data-Subnet",
+    "risk_rating": 5.0,
+    "target_treasury": "Bittensor-Ecosystem-Fund"
+  },
+  
+  "founder_identity": {
+    "name": "Zhang Yueting",
+    "legal_entities": [
+      {
+        "location": "Changsha, China",
+        "role": "Data Provider + Subnet Operator",
+        "since": "2019",
+        "verification": "Business license + Data collection permits"
+      }
+    ],
+    "skin_in_game": {
+      "amount_usd": 75000,
+      "currency": "CNY",
+      "status": "Deployed"
+    }
+  },
+  
+  "physical_asset": {
+    "location": {
+      "city": "Changsha",
+      "district": "IFS Core District",
+      "proximity": "High-footfall commercial zone",
+      "coordinates": [28.2282, 112.9388]
+    },
+    "space": {
+      "total_sqm": 1500,
+      "type": "Data Generation + Subnet Validation Site",
+      "lease_status": "20%_Reduction_Negotiated",
+      "rent_free_period": "3 months"
+    },
+    "scarcity_metrics": {
+      "data_quality_score": 9.0,
+      "ground_truth_availability": "24_months_historical",
+      "subnet_validation_ready": true
+    }
+  },
+  
+  "cashflow_structure": {
+    "monthly_revenue_usd": 45000,
+    "revenue_verification": "POS_system + Footfall_counters + Demographic_logs",
+    "dual_store_coverage": true,
+    "data_value": {
+      "monthly_transactions": 12000,
+      "customer_touchpoints": 15000,
+      "demographic_segments": 8,
+      "predictive_features": 45
+    },
+    "profitability": {
+      "pre_optimization_margin": -0.15,
+      "post_optimization_margin": 0.22,
+      "data_monetization_potential": "Subnet_incentive_layer"
+    }
+  },
+  
+  "investment_terms": {
+    "total_raise_usd": 150000,
+    "tranches": [
+      {
+        "phase": 1,
+        "amount": 100000,
+        "milestone": "Data_infrastructure + Subnet_setup",
+        "timeline_days": 90,
+        "control_mechanism": "Technical_milestones"
+      },
+      {
+        "phase": 2,
+        "amount": 50000,
+        "milestone": "Live_subnet_validation + Data_quality_metrics",
+        "timeline_days": 180,
+        "control_mechanism": "Subnet_performance_gates"
+      }
+    ],
+    "returns": {
+      "monthly_dividend_usd": 5000,
+      "annual_yield_pre_roi": 0.40,
+      "payback_period_months": 30,
+      "post_roi_structure": "Revenue_share_20_percent_after_ROI",
+      "tao_incentive_potential": "Subnet_validator_rewards"
+    },
+    "security_features": {
+      "fund_control": "Multi_sig + Subnet_governance",
+      "dividend_priority": "First_priority",
+      "clawback_period_days": 90,
+      "data_security": "Encrypted_onchain + Privacy_preserving"
+    }
+  },
+  
+  "treasury_agent_signals": {
+    "rwa_compliance": true,
+    "real_cashflow": true,
+    "physical_oracle": true,
+    "negative_correlation": "TAO_independent_cashflow",
+    "ai_governance_compatible": true,
+    "bitcoin_l2_ready": false,
+    "bittensor_specific": {
+      "ground_truth_dataset": "24_months_real_commercial_data",
+      "subnet_validation": "Physical_venue_as_validator_node",
+      "data_subnet_potential": "Consumer_behavior_prediction_subnet",
+      "tao_incentives": "Validator_rewards_from_data_quality"
+    }
+  },
+  
+  "ai_agent_hook": {
+    "why_bittensor": "Bittensor needs ground-truth datasets for subnet validation. L-150 has 24 months of data.",
+    "dataset_value": "45 predictive features from real commercial operations. High-quality ground truth.",
+    "subnet_potential": "Consumer behavior prediction subnet. Revenue forecasting validators.",
+    "validation_node": "Physical venue becomes validator node. Real-world subnet testing ground."
+  }
+}

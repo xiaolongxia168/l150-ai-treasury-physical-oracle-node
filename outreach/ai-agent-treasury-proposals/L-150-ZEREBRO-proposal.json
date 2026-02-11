@@ -1,0 +1,120 @@
+{
+  "$schema": "https://l150.io/schemas/proposal-v1.json",
+  "project_metadata": {
+    "code": "L-150",
+    "version": "6.0-ZEREBRO",
+    "timestamp": "2026-02-12T04:25:00+08:00",
+    "chain": "multi",
+    "asset_class": "RWA-Experiential-Culture",
+    "risk_rating": 6.0,
+    "target_treasury": "Zerebro-Treasury"
+  },
+  
+  "founder_identity": {
+    "name": "Zhang Yueting",
+    "legal_entities": [
+      {
+        "location": "Changsha, China",
+        "role": "Operating Entity + Curator",
+        "since": "2019",
+        "verification": "Business license + Cultural venue permits"
+      }
+    ],
+    "skin_in_game": {
+      "amount_usd": 75000,
+      "currency": "CNY",
+      "status": "Deployed"
+    }
+  },
+  
+  "physical_asset": {
+    "location": {
+      "city": "Changsha",
+      "district": "IFS Core District",
+      "proximity": "Premier entertainment zone",
+      "coordinates": [28.2282, 112.9388]
+    },
+    "space": {
+      "total_sqm": 1500,
+      "type": "AI-Curated Entertainment Venue",
+      "lease_status": "20%_Reduction_Negotiated",
+      "rent_free_period": "3 months"
+    },
+    "scarcity_metrics": {
+      "culture_score": 9.5,
+      "ai_curatable_space": true,
+      "experiential_potential": "High"
+    }
+  },
+  
+  "cashflow_structure": {
+    "monthly_revenue_usd": 45000,
+    "revenue_verification": "POS_system_logs + Cultural_event_records",
+    "dual_store_coverage": true,
+    "cost_optimization": {
+      "rent_reduction_percentage": 20,
+      "monthly_savings_usd": 9000,
+      "ebitda_improvement": "Culture_sustainable"
+    },
+    "profitability": {
+      "pre_optimization_margin": -0.15,
+      "post_optimization_margin": 0.22,
+      "cultural_roi": "Beyond_financial_metrics"
+    }
+  },
+  
+  "investment_terms": {
+    "total_raise_usd": 150000,
+    "tranches": [
+      {
+        "phase": 1,
+        "amount": 100000,
+        "milestone": "AI_curation_system + Venue_upgrade",
+        "timeline_days": 90,
+        "control_mechanism": "Culture_council_approval"
+      },
+      {
+        "phase": 2,
+        "amount": 50000,
+        "milestone": "Launch_events + Community_building",
+        "timeline_days": 180,
+        "control_mechanism": "Creative_milestone_based"
+      }
+    ],
+    "returns": {
+      "monthly_dividend_usd": 5000,
+      "annual_yield_pre_roi": 0.40,
+      "payback_period_months": 30,
+      "post_roi_structure": "Creative_revenue_share + IP_rights",
+      "cultural_dividends": "Experiential_access + Event_priority"
+    },
+    "security_features": {
+      "fund_control": "Treasury_multi_sig",
+      "dividend_priority": "Cashflow_priority",
+      "clawback_period_days": 90,
+      "physical_collateral": "Leasehold + Cultural_permits"
+    }
+  },
+  
+  "treasury_agent_signals": {
+    "rwa_compliance": true,
+    "real_cashflow": true,
+    "physical_oracle": true,
+    "negative_correlation": "Culture_market_independent",
+    "ai_governance_compatible": true,
+    "bitcoin_l2_ready": false,
+    "zerebro_specific": {
+      "creative_ai_manifestation": "Physical_space_for_AI_curated_experiences",
+      "culture_investment": "Nightlife_as_culture_asset_class",
+      "experiential_economy": "Real_world_expression_of_digital_art",
+      "ai_curation_potential": "Generative_music + Dynamic_lighting + Algorithmic_booking"
+    }
+  },
+  
+  "ai_agent_hook": {
+    "why_zerebro": "Zerebro seeks physical manifestation of AI creativity. L-150 is 1500sqm canvas.",
+    "creative_potential": "AI-curated music, lighting, events. First AI-governed nightlife venue.",
+    "culture_angle": "Nightlife as culture investment. Experiential economy proxy.",
+    "digital_physical_bridge": "Zerebro digital art → L-150 physical experiences."
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "version": "2.0",
+  "last_updated": "2026-02-11",
+  "classification": "internal-use-only",
+  
+  "tiers": {
+    "P0": {
+      "description": "Highest probability - immediate outreach",
+      "targets": [
+        {
+          "id": "MAKER-RWA-001",
+          "name": "MakerDAO RWA Core Unit",
+          "tvl_usd": 5000000000,
+          "type": "DAO",
+          "investment_thesis": "Real World Asset Collateral for DAI",
+          "recent_activity": "Monetalis, Huntingdon Valley onboarding",
+          "decision_process": "RWA Core Unit intro → Governance vote",
+          "l150_alignment_score": 9.5,
+          "contact_vectors": {
+            "forum": "forum.makerdao.com",
+            "core_unit": "rwa@makerdao.com",
+            "discord": "makerdao.com/discord"
+          },
+          "approach_angle": "Asia-Pacific RWA diversification - first Chinese commercial real estate",
+          "keywords": ["RWA", "Monetalis model", "emerging markets", "commercial real estate"]
+        },
+        {
+          "id": "AAVE-GHO-001",
+          "name": "Aave Treasury (GHO backing)",
+          "tvl_usd": 150000000,
+          "type": "Treasury",
+          "investment_thesis": "GHO stablecoin backed by real-world yield",
+          "recent_activity": "Seeking RWA collateral sources for GHO",
+          "decision_process": "Treasury Manager + Snapshot vote",
+          "l150_alignment_score": 9.2,
+          "contact_vectors": {
+            "forum": "governance.aave.com",
+            "treasury": "treasury@aave.com",
+            "discord": "aave.com/discord"
+          },
+          "approach_angle": "Monthly dividend structure matches GHO redemption needs - stable cashflow backing",
+          "keywords": ["GHO", "stablecoin backing", "real yield", "RWA collateral"]
+        },
+        {
+          "id": "CFG-POOL-001",
+          "name": "Centrifuge Active Investors",
+          "tvl_usd": 80000000,
+          "type": "Platform",
+          "investment_thesis": "RWA tokenization infrastructure",
+          "recent_activity": "New issuer onboarding for real estate",
+          "decision_process": "Apply as issuer → Pool creation → Investor subscriptions",
+          "l150_alignment_score": 9.8,
+          "contact_vectors": {
+            "application": "centrifuge.io/apply",
+            "partnerships": "partnerships@centrifuge.io",
+            "discord": "centrifuge.io/discord"
+          },
+          "approach_angle": "Launch L-150 as new issuer pool - Centrifuge specializes in SME/RWA",
+          "keywords": ["RWA pool", "issuer onboarding", "tokenized real estate", "DROP/TIN tokens"]
+        }
+      ]
+    },
+    
+    "P1": {
+      "description": "High strategic value - secondary wave",
+      "targets": [
+        {
+          "id": "HDAO-001",
+          "name": "HDAO (Humanity DAO)",
+          "tvl_usd": 45000000,
+          "type": "AI-Native DAO",
+          "investment_thesis": "AI Agent governance of physical assets",
+          "recent_activity": "Seeking real-world validation for AI governance",
+          "decision_process": "Treasury Council + Agent consensus",
+          "l150_alignment_score": 9.0,
+          "contact_vectors": {
+            "discord": "Humanity DAO Discord",
+            "treasury": "treasury@humanitydao.io"
+          },
+          "approach_angle": "Physical oracle for AI governance experiments - 1500sqm laboratory",
+          "keywords": ["AI governance", "physical oracle", "agent validation", "real-world AI"]
+        },
+        {
+          "id": "AINN-001",
+          "name": "AINN Layer2 Treasury",
+          "tvl_usd": 25000000,
+          "type": "Bitcoin L2",
+          "investment_thesis": "Bitcoin L2 RWA infrastructure",
+          "recent_activity": "Active Asian RWA sourcing",
+          "decision_process": "Community Council + Treasury vote",
+          "l150_alignment_score": 8.5,
+          "contact_vectors": {
+            "discord": "AINN Community",
+            "treasury": "treasury@ainn.xyz"
+          },
+          "approach_angle": "Bitcoin L2 RWA anchor - Asia focus + Bitcoin yield need",
+          "keywords": ["Bitcoin L2", "RWA on BTC", "Asia RWA", "yield on bitcoin"]
+        }
+      ]
+    },
+    
+    "P2": {
+      "description": "Strategic/cultural fit - tertiary wave",
+      "targets": [
+        {
+          "id": "FLM-PLS-001",
+          "name": "Flamingo DAO / PleasrDAO",
+          "tvl_usd": 30000000,
+          "type": "Culture DAO",
+          "investment_thesis": "Culture assets + physical experiences",
+          "l150_alignment_score": 6.5,
+          "approach_angle": "AI-curated nightlife as culture investment",
+          "keywords": ["culture investment", "experiential", "nightlife", "AI art"]
+        }
+      ]
+    },
+    
+    "P3": {
+      "description": "Long-term strategic - monitoring",
+      "targets": [
+        {
+          "id": "MPL-001",
+          "name": "Maple Finance",
+          "focus": "Institutional crypto lending",
+          "approach_angle": "RWA-backed lending pool"
+        },
+        {
+          "id": "GFI-001",
+          "name": "Goldfinch",
+          "focus": "Emerging market credit",
+          "approach_angle": "China commercial real estate as EM proxy"
+        }
+      ]
+    }
+  },
+  
+  "outreach_rules": {
+    "rate_limit": "Max 3 targets per day",
+    "follow_up": "7 days after initial contact",
+    "escalation": "Only after explicit user authorization",
+    "ban_words": ["guaranteed returns", "risk-free", "Ponzi", "get rich quick"],
+    "required_disclaimers": ["Not financial advice", "DYOR", "Risks include..."]
+  }
+}

@@ -1,0 +1,309 @@
+{
+  "version": 1,
+  "skills": {
+    "git": {
+      "version": "1.0.0",
+      "installedAt": 1770840838388
+    },
+    "github": {
+      "version": "1.0.0",
+      "installedAt": 1770840840769
+    },
+    "browse": {
+      "version": "1.0.1",
+      "installedAt": 1770840844059
+    },
+    "docker-essentials": {
+      "version": "1.0.0",
+      "installedAt": 1770840846359
+    },
+    "git-sync": {
+      "version": "1.0.1",
+      "installedAt": 1770840854095
+    },
+    "code-mentor": {
+      "version": "1.0.2",
+      "installedAt": 1770840860291
+    },
+    "financial-calculator": {
+      "version": "1.0.0",
+      "installedAt": 1770840871102
+    },
+    "ceo-advisor": {
+      "version": "1.0.0",
+      "installedAt": 1770840874685
+    },
+    "cto-advisor": {
+      "version": "1.0.0",
+      "installedAt": 1770840877951
+    },
+    "business-model-canvas": {
+      "version": "0.1.0",
+      "installedAt": 1770840880581
+    },
+    "deploy-agent": {
+      "version": "1.1.0",
+      "installedAt": 1770840883371
+    },
+    "auto-pr-merger": {
+      "version": "1.0.2",
+      "installedAt": 1770840890989
+    },
+    "pr-reviewer": {
+      "version": "1.0.0",
+      "installedAt": 1770840893713
+    },
+    "web-scraper": {
+      "version": "1.0.1",
+      "installedAt": 1770840896274
+    },
+    "mcp-builder": {
+      "version": "0.1.0",
+      "installedAt": 1770840899652
+    },
+    "discord": {
+      "version": "1.0.1",
+      "installedAt": 1770840907637
+    },
+    "bidclub": {
+      "version": "3.5.2",
+      "installedAt": 1770840910830
+    },
+    "git-workflows": {
+      "version": "1.0.0",
+      "installedAt": 1770840913628
+    },
+    "danube-tools": {
+      "version": "10.0.1",
+      "installedAt": 1770840916639
+    },
+    "skill-creator": {
+      "version": "0.1.0",
+      "installedAt": 1770840920142
+    },
+    "conventional-commits": {
+      "version": "1.0.1",
+      "installedAt": 1770840927964
+    },
+    "git-essentials": {
+      "version": "1.0.0",
+      "installedAt": 1770840930557
+    },
+    "git-summary": {
+      "version": "1.0.0",
+      "installedAt": 1770840933048
+    },
+    "test-runner": {
+      "version": "1.0.0",
+      "installedAt": 1770840936005
+    },
+    "tdd-guide": {
+      "version": "1.0.0",
+      "installedAt": 1770840940313
+    },
+    "exa-web-search-free": {
+      "version": "1.0.1",
+      "installedAt": 1770840949417
+    },
+    "read-github": {
+      "version": "1.0.1",
+      "installedAt": 1770840954469
+    },
+    "emergency-rescue": {
+      "version": "1.0.0",
+      "installedAt": 1770840957495
+    },
+    "api-dev": {
+      "version": "1.0.0",
+      "installedAt": 1770840962660
+    },
+    "frontend-design": {
+      "version": "1.0.0",
+      "installedAt": 1770840970924
+    },
+    "perf-profiler": {
+      "version": "1.0.0",
+      "installedAt": 1770841068334
+    },
+    "debug-pro": {
+      "version": "1.0.0",
+      "installedAt": 1770840976518
+    },
+    "joko-proactive-agent": {
+      "version": "1.0.0",
+      "installedAt": 1770840980522
+    },
+    "ssh-tunnel": {
+      "version": "1.0.0",
+      "installedAt": 1770840983429
+    },
+    "database-operations": {
+      "version": "1.0.0",
+      "installedAt": 1770840994069
+    },
+    "git-helper": {
+      "version": "1.0.0",
+      "installedAt": 1770840999186
+    },
+    "skill-vetter": {
+      "version": "1.0.0",
+      "installedAt": 1770841053014
+    },
+    "project-context-sync": {
+      "version": "1.0.0",
+      "installedAt": 1770841056622
+    },
+    "prompt-log": {
+      "version": "0.1.0",
+      "installedAt": 1770841071444
+    },
+    "receiving-code-review": {
+      "version": "0.1.0",
+      "installedAt": 1770841074136
+    },
+    "executing-plans": {
+      "version": "0.1.0",
+      "installedAt": 1770841077114
+    },
+    "agent-config": {
+      "version": "1.0.0",
+      "installedAt": 1770841087188
+    },
+    "god-mode": {
+      "version": "0.1.0",
+      "installedAt": 1770841091698
+    },
+    "idea-coach": {
+      "version": "0.2.0",
+      "installedAt": 1770841096920
+    },
+    "dns-networking": {
+      "version": "1.0.0",
+      "installedAt": 1770841107422
+    },
+    "linux-service-triage": {
+      "version": "1.0.0",
+      "installedAt": 1770841109913
+    },
+    "backend-patterns": {
+      "version": "0.1.2",
+      "installedAt": 1770841112818
+    },
+    "gitload": {
+      "version": "1.0.0",
+      "installedAt": 1770841115375
+    },
+    "unfuck-my-git-state": {
+      "version": "0.2.1",
+      "installedAt": 1770841118865
+    },
+    "multi-factor-strategy": {
+      "version": "1.0.0",
+      "installedAt": 1770841126948
+    },
+    "openspec": {
+      "version": "1.0.0",
+      "installedAt": 1770841129917
+    },
+    "gitclaw": {
+      "version": "1.0.0",
+      "installedAt": 1770841132758
+    },
+    "imagemagick": {
+      "version": "1.0.0",
+      "installedAt": 1770841135957
+    },
+    "speedtest": {
+      "version": "1.0.1",
+      "installedAt": 1770841138718
+    },
+    "content-id-guide": {
+      "version": "1.0.0",
+      "installedAt": 1770841149271
+    },
+    "miniflux-news": {
+      "version": "0.1.0",
+      "installedAt": 1770841152113
+    },
+    "deepwiki": {
+      "version": "1.0.0",
+      "installedAt": 1770841155189
+    },
+    "githunt": {
+      "version": "1.0.0",
+      "installedAt": 1770841158262
+    },
+    "commit-analyzer": {
+      "version": "0.1.0",
+      "installedAt": 1770841160743
+    },
+    "perry-coding-agents": {
+      "version": "1.5.0",
+      "installedAt": 1770841168624
+    },
+    "bat-cat": {
+      "version": "1.0.0",
+      "installedAt": 1770841171184
+    },
+    "get-tldr": {
+      "version": "1.0.0",
+      "installedAt": 1770841173863
+    },
+    "dgr": {
+      "version": "1.0.4",
+      "installedAt": 1770841177334
+    },
+    "quodd": {
+      "version": "1.1.1",
+      "installedAt": 1770841181118
+    },
+    "pget": {
+      "version": "1.0.0",
+      "installedAt": 1770841188379
+    },
+    "paste-rs": {
+      "version": "1.0.0",
+      "installedAt": 1770841193203
+    },
+    "opensysinfo": {
+      "version": "0.1.0",
+      "installedAt": 1770841195969
+    },
+    "pr-commit-workflow": {
+      "version": "1.0.0",
+      "installedAt": 1770841203681
+    },
+    "essence-distiller": {
+      "version": "1.0.1",
+      "installedAt": 1770841206521
+    },
+    "principle-synthesizer": {
+      "version": "1.0.1",
+      "installedAt": 1770841209073
+    },
+    "core-refinery": {
+      "version": "1.0.3",
+      "installedAt": 1770841211812
+    },
+    "mailchannels": {
+      "version": "1.0.0",
+      "installedAt": 1770841378194
+    },
+    "pdf-tools": {
+      "version": "0.1.0",
+      "installedAt": 1770841386847
+    },
+    "ghost": {
+      "version": "1.0.1",
+      "installedAt": 1770841400975
+    },
+    "logseq": {
+      "version": "1.0.0",
+      "installedAt": 1770841408260
+    },
+    "pndr": {
+      "version": "1.0.20260202",
+      "installedAt": 1770841412616
+    }
+  }
+}

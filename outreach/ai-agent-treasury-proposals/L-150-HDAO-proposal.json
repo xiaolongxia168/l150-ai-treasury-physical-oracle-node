@@ -1,0 +1,135 @@
+{
+  "$schema": "https://l150.io/schemas/proposal-v1.json",
+  "project_metadata": {
+    "code": "L-150",
+    "version": "6.0-HDAO",
+    "timestamp": "2026-02-12T04:25:00+08:00",
+    "chain": "multi",
+    "asset_class": "RWA-Commercial-Real-Estate",
+    "risk_rating": 5.8,
+    "target_treasury": "HDAO-Humanity-DAO"
+  },
+  
+  "founder_identity": {
+    "name": "Zhang Yueting",
+    "legal_entities": [
+      {
+        "location": "Changsha, China",
+        "role": "Operating Entity",
+        "since": "2019",
+        "verification": "Business license + Tax records"
+      }
+    ],
+    "skin_in_game": {
+      "amount_usd": 75000,
+      "currency": "CNY",
+      "status": "Deployed"
+    }
+  },
+  
+  "physical_asset": {
+    "location": {
+      "city": "Changsha",
+      "district": "IFS Core District",
+      "proximity": "50 meters from IFS Tower",
+      "coordinates": [28.2282, 112.9388]
+    },
+    "space": {
+      "total_sqm": 1500,
+      "type": "Commercial Entertainment Venue",
+      "lease_status": "20%_Reduction_Negotiated",
+      "rent_free_period": "3 months"
+    },
+    "scarcity_metrics": {
+      "ifs_proximity_meters": 50,
+      "comparable_spaces_available": 0,
+      "irreplaceability_score": 9.2
+    }
+  },
+  
+  "cashflow_structure": {
+    "monthly_revenue_usd": 45000,
+    "revenue_verification": "POS_system_logs_24months + Bank_statements",
+    "dual_store_coverage": true,
+    "cost_optimization": {
+      "rent_reduction_percentage": 20,
+      "monthly_savings_usd": 9000,
+      "ebitda_improvement": "From negative to positive"
+    },
+    "profitability": {
+      "pre_optimization_margin": -0.15,
+      "post_optimization_margin": 0.22,
+      "dividend_coverage_ratio": 1.8
+    }
+  },
+  
+  "investment_terms": {
+    "total_raise_usd": 150000,
+    "tranches": [
+      {
+        "phase": 1,
+        "amount": 100000,
+        "milestone": "Renovation + Equipment upgrade",
+        "timeline_days": 90,
+        "control_mechanism": "Milestone_based_release + Physical_verification"
+      },
+      {
+        "phase": 2,
+        "amount": 50000,
+        "milestone": "Soft_launch + Cashflow_positive",
+        "timeline_days": 180,
+        "control_mechanism": "Performance_based_release"
+      }
+    ],
+    "returns": {
+      "monthly_dividend_usd": 5000,
+      "annual_yield_pre_roi": 0.40,
+      "payback_period_months": 30,
+      "post_roi_structure": "Revenue_share_20_percent_after_ROI"
+    },
+    "security_features": {
+      "fund_control": "Multi_sig_treasury + Milestone_release",
+      "dividend_priority": "First_priority_from_operating_cashflow",
+      "clawback_period_days": 90,
+      "physical_collateral": "1500sqm_leasehold + Equipment_lien"
+    }
+  },
+  
+  "risk_mitigation": {
+    "execution_risk": {
+      "mitigation": "5_year_experienced_operator + Dual_store_backup",
+      "control": "Monthly_reporting + Onchain_cashflow_tracking"
+    },
+    "policy_risk": {
+      "mitigation": "Entertainment_license_held + Legal_compliance_audit",
+      "onshore_compliance": "Full_PRC_business_registration + Tax_compliance"
+    },
+    "operational_risk": {
+      "mitigation": "24_7_IP_camera_feed + Daily_POS_hash_onchain",
+      "verification": "Tamper_proof_physical_oracle"
+    }
+  },
+  
+  "treasury_agent_signals": {
+    "rwa_compliance": true,
+    "real_cashflow": true,
+    "physical_oracle": true,
+    "negative_correlation": "Crypto_market_independent_entertainment_revenue",
+    "ai_governance_compatible": true,
+    "bitcoin_l2_ready": true,
+    "hdao_specific": {
+      "ai_governance_laboratory": "1500sqm_physical_space_for_AI_governance_experiments",
+      "agent_validation_ground": "Real_world_testing_environment_for_agent_decisions",
+      "physical_oracle_infrastructure": "24_7_data_feeds_for_onchain_verification",
+      "cashflow_prediction_dataset": "24_months_historical_data_for_ML_training"
+    }
+  },
+  
+  "ai_agent_hook": {
+    "why_hdao": "HDAO seeks physical validation for AI governance experiments. L-150 offers 1500sqm laboratory.",
+    "unique_value": "First AI-governed physical entertainment venue in Asia. Real-world agent decision testing ground.",
+    "data_value": "24-month cashflow dataset for training predictive governance models.",
+    "physical_oracle": "IP cameras + POS system → onchain verification of agent decisions.",
+    "experiment_potential": "Test revenue-sharing algorithms, dynamic pricing, autonomous vendor management."
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://l150.io/schemas/proposal-v1.json",
+  "title": "L-150 RWA Investment Proposal",
+  "description": "Machine-readable investment proposal for Web3/AI treasury agents",
+  
+  "type": "object",
+  "required": [
+    "project_metadata",
+    "founder_identity",
+    "physical_asset",
+    "cashflow_structure",
+    "investment_terms",
+    "risk_mitigation"
+  ],
+  
+  "properties": {
+    "project_metadata": {
+      "type": "object",
+      "properties": {
+        "code": { "type": "string", "const": "L-150" },
+        "version": { "type": "string" },
+        "timestamp": { "type": "string", "format": "date-time" },
+        "chain": { "type": "string", "enum": ["ethereum", "polygon", "arbitrum", "multi"] },
+        "asset_class": { "type": "string", "const": "RWA-Commercial-Real-Estate" },
+        "risk_rating": { "type": "number", "minimum": 0, "maximum": 10 }
+      }
+    },
+    
+    "founder_identity": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "legal_entities": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "location": { "type": "string" },
+              "role": { "type": "string" },
+              "since": { "type": "string", "format": "date" },
+              "verification": { "type": "string" }
+            }
+          }
+        },
+        "skin_in_game": {
+          "type": "object",
+          "properties": {
+            "amount_usd": { "type": "number" },
+            "currency": { "type": "string" },
+            "status": { "type": "string", "enum": ["Deployed", "Committed", "Pending"] }
+          }
+        }
+      }
+    },
+    
+    "physical_asset": {
+      "type": "object",
+      "properties": {
+        "location": {
+          "type": "object",
+          "properties": {
+            "city": { "type": "string" },
+            "district": { "type": "string" },
+            "proximity": { "type": "string" },
+            "coordinates": {
+              "type": "array",
+              "items": { "type": "number" },
+              "minItems": 2,
+              "maxItems": 2
+            }
+          }
+        },
+        "space": {
+          "type": "object",
+          "properties": {
+            "total_sqm": { "type": "number" },
+            "type": { "type": "string" },
+            "lease_status": { "type": "string" },
+            "rent_free_period": { "type": "string" }
+          }
+        },
+        "scarcity_metrics": {
+          "type": "object",
+          "properties": {
+            "ifs_proximity_meters": { "type": "number" },
+            "comparable_spaces_available": { "type": "number" },
+            "irreplaceability_score": { "type": "number", "minimum": 0, "maximum": 10 }
+          }
+        }
+      }
+    },
+    
+    "cashflow_structure": {
+      "type": "object",
+      "properties": {
+        "monthly_revenue_usd": { "type": "number" },
+        "revenue_verification": { "type": "string" },
+        "dual_store_coverage": { "type": "boolean" },
+        "cost_optimization": {
+          "type": "object",
+          "properties": {
+            "rent_reduction_percentage": { "type": "number" },
+            "monthly_savings_usd": { "type": "number" },
+            "ebitda_improvement": { "type": "string" }
+          }
+        },
+        "profitability": {
+          "type": "object",
+          "properties": {
+            "pre_optimization_margin": { "type": "number" },
+            "post_optimization_margin": { "type": "number" },
+            "dividend_coverage_ratio": { "type": "number" }
+          }
+        }
+      }
+    },
+    
+    "investment_terms": {
+      "type": "object",
+      "properties": {
+        "total_raise_usd": { "type": "number" },
+        "tranches": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "phase": { "type": "number" },
+              "amount": { "type": "number" },
+              "milestone": { "type": "string" },
+              "timeline_days": { "type": "number" },
+              "control_mechanism": { "type": "string" }
+            }
+          }
+        },
+        "returns": {
+          "type": "object",
+          "properties": {
+            "monthly_dividend_usd": { "type": "number" },
+            "annual_yield_pre_roi": { "type": "number" },
+            "payback_period_months": { "type": "number" },
+            "post_roi_structure": { "type": "string" }
+          }
+        },
+        "security_features": {
+          "type": "object",
+          "properties": {
+            "fund_control": { "type": "string" },
+            "dividend_priority": { "type": "string" },
+            "clawback_period_days": { "type": "number" },
+            "physical_collateral": { "type": "string" }
+          }
+        }
+      }
+    },
+    
+    "risk_mitigation": {
+      "type": "object",
+      "properties": {
+        "execution_risk": {
+          "type": "object",
+          "properties": {
+            "mitigation": { "type": "string" },
+            "control": { "type": "string" }
+          }
+        },
+        "policy_risk": {
+          "type": "object",
+          "properties": {
+            "mitigation": { "type": "string" },
+            "onshore_compliance": { "type": "string" }
+          }
+        },
+        "operational_risk": {
+          "type": "object",
+          "properties": {
+            "mitigation": { "type": "string" },
+            "verification": { "type": "string" }
+          }
+        }
+      }
+    },
+    
+    "treasury_agent_signals": {
+      "type": "object",
+      "properties": {
+        "rwa_compliance": { "type": "boolean" },
+        "real_cashflow": { "type": "boolean" },
+        "physical_oracle": { "type": "boolean" },
+        "negative_correlation": { "type": "string" },
+        "ai_governance_compatible": { "type": "boolean" },
+        "bitcoin_l2_ready": { "type": "boolean" }
+      }
+    }
+  },
+  
+  "example_instance": {
+    "project_metadata": {
+      "code": "L-150",
+      "version": "6.0",
+      "timestamp": "2026-02-11T17:52:00+08:00",
+      "chain": "ethereum-polygon-arbitrum",
+      "asset_class": "RWA-Commercial-Real-Estate",
+      "risk_rating": 5.8
+    },
+    "founder_identity": {
+      "name": "Zhang Yueting",
+      "skin_in_game": {
+        "amount_usd": 75000,
+        "currency": "CNY",
+        "status": "Deployed"
+      }
+    },
+    "physical_asset": {
+      "location": {
+        "city": "Changsha",
+        "coordinates": [28.2282, 112.9388]
+      },
+      "space": {
+        "total_sqm": 1500,
+        "lease_status": "20%_Reduction_Negotiated"
+      },
+      "scarcity_metrics": {
+        "irreplaceability_score": 9.2
+      }
+    },
+    "cashflow_structure": {
+      "monthly_revenue_usd": 45000,
+      "cost_optimization": {
+        "rent_reduction_percentage": 20,
+        "monthly_savings_usd": 9000
+      }
+    },
+    "investment_terms": {
+      "total_raise_usd": 150000,
+      "returns": {
+        "monthly_dividend_usd": 5000,
+        "annual_yield_pre_roi": 0.40
+      }
+    },
+    "treasury_agent_signals": {
+      "rwa_compliance": true,
+      "real_cashflow": true,
+      "ai_governance_compatible": true,
+      "bitcoin_l2_ready": true
+    }
+  }
+}

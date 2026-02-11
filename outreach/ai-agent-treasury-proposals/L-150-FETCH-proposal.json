@@ -1,0 +1,120 @@
+{
+  "$schema": "https://l150.io/schemas/proposal-v1.json",
+  "project_metadata": {
+    "code": "L-150",
+    "version": "6.0-FETCH",
+    "timestamp": "2026-02-12T04:25:00+08:00",
+    "chain": "ethereum",
+    "asset_class": "RWA-B2B-Deployment",
+    "risk_rating": 5.5,
+    "target_treasury": "Fetch.ai-Foundation"
+  },
+  
+  "founder_identity": {
+    "name": "Zhang Yueting",
+    "legal_entities": [
+      {
+        "location": "Changsha, China",
+        "role": "Operating Entity + Deployment Partner",
+        "since": "2019",
+        "verification": "Business license + B2B operational records"
+      }
+    ],
+    "skin_in_game": {
+      "amount_usd": 75000,
+      "currency": "CNY",
+      "status": "Deployed"
+    }
+  },
+  
+  "physical_asset": {
+    "location": {
+      "city": "Changsha",
+      "district": "IFS Core District",
+      "proximity": "Central business district",
+      "coordinates": [28.2282, 112.9388]
+    },
+    "space": {
+      "total_sqm": 1500,
+      "type": "Autonomous Economic Agent Deployment Site",
+      "lease_status": "20%_Reduction_Negotiated",
+      "rent_free_period": "3 months"
+    },
+    "scarcity_metrics": {
+      "b2b_deployment_potential": 9.0,
+      "agent_testing_ground": true,
+      "real_world_complexity": "High"
+    }
+  },
+  
+  "cashflow_structure": {
+    "monthly_revenue_usd": 45000,
+    "revenue_verification": "POS_system_logs + Agent_transaction_records",
+    "dual_store_coverage": true,
+    "cost_optimization": {
+      "rent_reduction_percentage": 20,
+      "monthly_savings_usd": 9000,
+      "agent_efficiency_gain": "Projected_15_percent"
+    },
+    "profitability": {
+      "pre_optimization_margin": -0.15,
+      "post_optimization_margin": 0.22,
+      "agent_augmented_projection": 0.28
+    }
+  },
+  
+  "investment_terms": {
+    "total_raise_usd": 150000,
+    "tranches": [
+      {
+        "phase": 1,
+        "amount": 100000,
+        "milestone": "Infrastructure + Agent integration",
+        "timeline_days": 90,
+        "control_mechanism": "Technical_milestones"
+      },
+      {
+        "phase": 2,
+        "amount": 50000,
+        "milestone": "Live_agent_operations + Performance_metrics",
+        "timeline_days": 180,
+        "control_mechanism": "Agent_performance_gates"
+      }
+    ],
+    "returns": {
+      "monthly_dividend_usd": 5000,
+      "annual_yield_pre_roi": 0.40,
+      "payback_period_months": 30,
+      "post_roi_structure": "Revenue_share_20_percent_after_ROI",
+      "case_study_value": "Published_deployment_blueprint"
+    },
+    "security_features": {
+      "fund_control": "Foundation_multi_sig",
+      "dividend_priority": "First_priority",
+      "clawback_period_days": 90,
+      "physical_collateral": "Leasehold + Infrastructure"
+    }
+  },
+  
+  "treasury_agent_signals": {
+    "rwa_compliance": true,
+    "real_cashflow": true,
+    "physical_oracle": true,
+    "negative_correlation": "Crypto_independent",
+    "ai_governance_compatible": true,
+    "bitcoin_l2_ready": false,
+    "fetch_specific": {
+      "autonomous_agent_deployment": "Real_world_B2B_agent_testing_ground",
+      "economic_agent_infrastructure": "Live_economic_agent_ecosystem",
+      "ground_truth_dataset": "Real_transaction_data_for_agent_training",
+      "deployment_blueprint": "Replicable_model_for_global_expansion"
+    }
+  },
+  
+  "ai_agent_hook": {
+    "why_fetch": "Fetch.ai needs real-world B2B deployment cases. L-150 is live agent laboratory.",
+    "deployment_value": "1500sqm venue for testing autonomous agents: booking, inventory, pricing.",
+    "dataset_value": "Real economic transactions for agent training. Ground truth data.",
+    "blueprint_potential": "Successful deployment becomes replicable model for global expansion."
+  }
+}
