@@ -31,15 +31,15 @@
     },
     "ceo-advisor": {
       "version": "1.0.0",
-      "installedAt": 1770840874685
+      "installedAt": 1770843132333
     },
     "cto-advisor": {
       "version": "1.0.0",
-      "installedAt": 1770840877951
+      "installedAt": 1770843135625
     },
     "business-model-canvas": {
       "version": "0.1.0",
-      "installedAt": 1770840880581
+      "installedAt": 1770843138495
     },
     "deploy-agent": {
       "version": "1.1.0",
@@ -47,7 +47,7 @@
     },
     "auto-pr-merger": {
       "version": "1.0.2",
-      "installedAt": 1770840890989
+      "installedAt": 1770843102248
     },
     "pr-reviewer": {
       "version": "1.0.0",
@@ -103,15 +103,15 @@
     },
     "exa-web-search-free": {
       "version": "1.0.1",
-      "installedAt": 1770840949417
+      "installedAt": 1770843089424
     },
     "read-github": {
       "version": "1.0.1",
-      "installedAt": 1770840954469
+      "installedAt": 1770843080321
     },
     "emergency-rescue": {
       "version": "1.0.0",
-      "installedAt": 1770840957495
+      "installedAt": 1770843118889
     },
     "api-dev": {
       "version": "1.0.0",
@@ -151,7 +151,7 @@
     },
     "project-context-sync": {
       "version": "1.0.0",
-      "installedAt": 1770841056622
+      "installedAt": 1770843115767
     },
     "prompt-log": {
       "version": "0.1.0",
@@ -167,15 +167,15 @@
     },
     "agent-config": {
       "version": "1.0.0",
-      "installedAt": 1770841087188
+      "installedAt": 1770843221608
     },
     "god-mode": {
       "version": "0.1.0",
-      "installedAt": 1770841091698
+      "installedAt": 1770843218484
     },
     "idea-coach": {
       "version": "0.2.0",
-      "installedAt": 1770841096920
+      "installedAt": 1770843202964
     },
     "dns-networking": {
       "version": "1.0.0",
@@ -203,11 +203,11 @@
     },
     "openspec": {
       "version": "1.0.0",
-      "installedAt": 1770841129917
+      "installedAt": 1770843205568
     },
     "gitclaw": {
       "version": "1.0.0",
-      "installedAt": 1770841132758
+      "installedAt": 1770843092107
     },
     "imagemagick": {
       "version": "1.0.0",
@@ -215,7 +215,7 @@
     },
     "speedtest": {
       "version": "1.0.1",
-      "installedAt": 1770841138718
+      "installedAt": 1770843185498
     },
     "content-id-guide": {
       "version": "1.0.0",
@@ -227,7 +227,7 @@
     },
     "deepwiki": {
       "version": "1.0.0",
-      "installedAt": 1770841155189
+      "installedAt": 1770843077261
     },
     "githunt": {
       "version": "1.0.0",
@@ -235,7 +235,7 @@
     },
     "commit-analyzer": {
       "version": "0.1.0",
-      "installedAt": 1770841160743
+      "installedAt": 1770843105011
     },
     "perry-coding-agents": {
       "version": "1.5.0",
@@ -247,7 +247,7 @@
     },
     "get-tldr": {
       "version": "1.0.0",
-      "installedAt": 1770841173863
+      "installedAt": 1770843214273
     },
     "dgr": {
       "version": "1.0.4",
@@ -267,7 +267,7 @@
     },
     "opensysinfo": {
       "version": "0.1.0",
-      "installedAt": 1770841195969
+      "installedAt": 1770843187955
     },
     "pr-commit-workflow": {
       "version": "1.0.0",
@@ -299,11 +299,23 @@
     },
     "logseq": {
       "version": "1.0.0",
-      "installedAt": 1770841408260
+      "installedAt": 1770843199274
     },
     "pndr": {
       "version": "1.0.20260202",
       "installedAt": 1770841412616
+    },
+    "trend-watcher": {
+      "version": "1.0.1",
+      "installedAt": 1770843074384
+    },
+    "healthcheck": {
+      "version": "1.0.2",
+      "installedAt": 1770843121598
+    },
+    "flaw0": {
+      "version": "0.1.1",
+      "installedAt": 1770843190414
     }
   }
 }
