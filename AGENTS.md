@@ -220,6 +220,8 @@ The goal: Be helpful without being annoying. Check in a few times a day, do usef
 - Use `git-sync` skill after significant changes — don't rely on mental notes to push later.
 - When repos have submodules, each needs separate authentication.
 - The `unfuck-my-git-state` skill is invaluable for recovery when things go sideways.
+- **GitHub Token scopes matter**: Repos with GitHub Actions workflows require `workflow` scope — missing this causes silent push failures after successful authentication.
+- **Token expiry tracking**: Track PAT expiry dates in TOOLS.md to prevent cascading failures across cron jobs.
 
 ### Project Structuring
 - **Structured documentation works**: JSON data packets + markdown narratives for different audiences (humans vs AI agents).
@@ -230,11 +232,24 @@ The goal: Be helpful without being annoying. Check in a few times a day, do usef
 - Feishu bot setup requires: correct open_id, app credentials, and message template testing.
 - Test messages should be sent immediately after setup to verify end-to-end flow.
 - Keep credential scripts (like `send-feishu-*.sh`) updated with correct IDs.
+- **iMessage**: macOS TCC permission changes require FULL system restart to take effect — resetting via `tccutil` alone is insufficient.
+- **Telegram Bot**: Faster alternative to iMessage when macOS permissions are problematic — requires @BotFather setup but bypasses local permission issues.
 
 ### Cron Job Management
 - Gateway timeout issues happen — design jobs to be idempotent and recoverable.
 - Failed jobs should log detailed error context to memory files for debugging.
 - Separate job IDs make it easier to track which automation is failing.
+- **Current issue**: AI treasury scanner hitting timeout after ~16min (7200ms interval, 994079ms duration) — needs task splitting or model switching.
+
+### Deployment & Infrastructure
+- **Vercel CLI proxy issues**: Known bug with `ProxyAgent is not a constructor` on some Node.js versions — prefer GitHub-Vercel integration or GitHub Pages as fallback.
+- **GitHub Pages as MVP**: Static API hosting via GitHub Pages works immediately without additional auth — use this while setting up "proper" hosting.
+- **Multi-repo strategy**: Separate repos for code (`main`), static API (`api-static`), and SEO bait (`github-bait`) allows independent deployment schedules.
+
+### Browser Automation
+- **Chrome extension relay**: Extension must be manually activated (badge ON) before each session — no persistent connection state.
+- **Playwright alternatives**: When extension fails, direct Playwright control is reliable but requires separate browser instance.
+- **Proxy interference**: System proxy settings (7897, etc.) can break both git operations and browser automation — test with `unset` when troubleshooting.
 
 ---
 
@@ -259,6 +274,13 @@ The goal: Be helpful without being annoying. Check in a few times a day, do usef
 - `read-github` — Better than raw scraping for repo research
 - `deepwiki` — For understanding complex codebases
 - `exa-web-search-free` — Free AI-powered search (when API keys configured)
+- `summarize` — Quick URL/video summaries without yt-dlp
+
+### Communication & Monitoring
+- `weather` — Proactive weather checks before user goes out
+- `himalaya` — Email CLI for heartbeat inbox checks (if IMAP configured)
+- `1password` — Secure credential retrieval (if user uses 1Password)
+- `imsg` — iMessage when macOS permissions allow (currently blocked)
 
 ## Make It Yours
 
