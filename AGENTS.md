@@ -207,6 +207,59 @@ Think of it like a human reviewing their journal and updating their mental model
 
 The goal: Be helpful without being annoying. Check in a few times a day, do useful background work, but respect quiet time.
 
+---
+
+## 📚 Lessons Learned (From Recent Work)
+
+### API Authentication Patterns
+- **Feishu API**: User IDs need `ou_` prefix for open_id format. Raw numeric IDs fail.
+- **GitHub Tokens**: Personal Access Tokens expire and cause cascading failures across cron jobs. Track expiry dates in TOOLS.md.
+- **Always verify credential format** before assuming auth failures are token issues.
+
+### Git Workflow Best Practices
+- Use `git-sync` skill after significant changes — don't rely on mental notes to push later.
+- When repos have submodules, each needs separate authentication.
+- The `unfuck-my-git-state` skill is invaluable for recovery when things go sideways.
+
+### Project Structuring
+- **Structured documentation works**: JSON data packets + markdown narratives for different audiences (humans vs AI agents).
+- **Sub-agents are effective** for research tasks that take 2+ hours (e.g., AI treasury scouting).
+- **Memory files maintain continuity** — daily logs + curated MEMORY.md is worth the effort.
+
+### Communication Channel Setup
+- Feishu bot setup requires: correct open_id, app credentials, and message template testing.
+- Test messages should be sent immediately after setup to verify end-to-end flow.
+- Keep credential scripts (like `send-feishu-*.sh`) updated with correct IDs.
+
+### Cron Job Management
+- Gateway timeout issues happen — design jobs to be idempotent and recoverable.
+- Failed jobs should log detailed error context to memory files for debugging.
+- Separate job IDs make it easier to track which automation is failing.
+
+---
+
+## 🛠️ Recommended Skill Stack (From Experience)
+
+### Essential Daily Use
+- `git-sync` — After every significant change, without fail
+- `feishu-bot` / `feishu-doc` — Primary communication channels
+- `cron` — Automate repetitive checks
+
+### When Things Break
+- `unfuck-my-git-state` — Git recovery without panic
+- `emergency-rescue` — For the real "oh no" moments
+- `skill-vetter` — Before installing anything from external sources
+
+### Project Development
+- `github` — PRs, issues, repo management
+- `deploy-agent` — For full-stack deployments
+- `web3-rwa-outreach` — If doing Web3/AI treasury work
+
+### Research & Analysis
+- `read-github` — Better than raw scraping for repo research
+- `deepwiki` — For understanding complex codebases
+- `exa-web-search-free` — Free AI-powered search (when API keys configured)
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.
