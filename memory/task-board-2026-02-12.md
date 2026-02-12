@@ -16,10 +16,10 @@
 **方案B Telegram Bot**: 脚本已就绪，需用户去 @BotFather 创建
 **方案C Browser Relay**: 扩展连接问题，待解决
 
-## 🔴 新发现：api-static 远程仓库问题
-**问题**: GitHub 上 `xiaolongxia168/l150-api-static` 仓库不存在（404）
-**影响**: 子模块提交无法推送
-**解决**: 需要创建仓库或更正远程 URL
+## ✅ 已完成：api-static 远程仓库
+**结果**: 仓库已创建，64个对象已推送
+**URL**: https://github.com/xiaolongxia168/l150-api-static
+**状态**: main分支已跟踪
 
 ## 🟡 待处理：Browser 控制 Gemini/Manus
 **状态**: Chrome扩展连接失败，待替代方案
