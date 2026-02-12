@@ -7,7 +7,7 @@
     },
     "github": {
       "version": "1.0.0",
-      "installedAt": 1770840840769
+      "installedAt": 1770868637911
     },
     "browse": {
       "version": "1.0.1",
@@ -55,7 +55,7 @@
     },
     "web-scraper": {
       "version": "1.0.1",
-      "installedAt": 1770840896274
+      "installedAt": 1770868660850
     },
     "mcp-builder": {
       "version": "0.1.0",
@@ -103,11 +103,11 @@
     },
     "exa-web-search-free": {
       "version": "1.0.1",
-      "installedAt": 1770843089424
+      "installedAt": 1770868643710
     },
     "read-github": {
       "version": "1.0.1",
-      "installedAt": 1770843080321
+      "installedAt": 1770868654543
     },
     "emergency-rescue": {
       "version": "1.0.0",
@@ -223,7 +223,7 @@
     },
     "miniflux-news": {
       "version": "0.1.0",
-      "installedAt": 1770841152113
+      "installedAt": 1770868641038
     },
     "deepwiki": {
       "version": "1.0.0",
@@ -231,7 +231,7 @@
     },
     "githunt": {
       "version": "1.0.0",
-      "installedAt": 1770868085014
+      "installedAt": 1770868657479
     },
     "commit-analyzer": {
       "version": "0.1.0",
