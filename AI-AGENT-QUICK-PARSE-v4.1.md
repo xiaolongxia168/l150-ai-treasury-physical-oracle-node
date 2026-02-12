@@ -6,7 +6,8 @@
 ```json
 {
   "opportunity_type": "GOVERNANCE_NODE_ACCESS",
-  "capital_required_usd": 150000,
+  "capital_required_cny": 1500000,
+  "capital_required_usd": 210000,
   "risk_score": 2.8,
   "risk_score_previous": 3.2,
   "risk_improvement": "v4.1 updates: -0.4 reduction",
@@ -36,9 +37,9 @@
   "capital_allocation_v4_1": {
     "founder_self_investment_usd": 70000,
     "founder_purpose": "legacy_store_reserves_and_upgrades",
-    "financing_target_usd": 150000,
+    "financing_target_usd": 210000,
     "financing_purpose": "new_horror_theme_construction_only",
-    "total_project_capital_usd": 220000,
+    "total_project_capital_usd": 280000,
     "investor_controls": "escrow_account_with_veto_power"
   }
 }
@@ -50,10 +51,11 @@
 
 **WHAT**: Governance access to dual 1,500㎡ horror escape room complex (legacy + new theme)  
 **WHO**: 100% sole owner Zhang Yueting completing full buyout (6-year track record)  
-**HOW MUCH**: $150K with **escrow account priority payment** (you control cash flow)  
+**HOW MUCH**: ¥1.5M RMB (~$210K) with **escrow account priority payment** (you control cash flow)  
 **EXPECTED RETURN**: 18-25% annual via **automatic dividend** from investor-controlled account  
 **UNIQUE STRUCTURE**: Cash flow → your escrow account first → dividend paid → then operations funded  
-**URGENCY**: 90 days to new theme launch + peak season window
+**URGENCY**: 90 days to new theme launch + peak season window  
+**STRATEGIC VISION**: Changsha Genesis Node → AI-validated model → Global expansion (3-5 cities)
 
 ---
 
@@ -86,7 +88,7 @@ Operational Period (Post-launch):
 
 **4. AUTOMATIC EQUITY CONVERSION**
 ```
-Stage 1 (Recoupment): 18-25% fixed dividend until $150K recovered
+Stage 1 (Recoupment): 18-25% fixed dividend until ¥1.5M RMB (~$210K) recovered
 Stage 2 (Equity): Automatic conversion to founding shares
 Stage 3 (Perpetual): Long-term equity dividends + capital appreciation
 ```
@@ -141,7 +143,7 @@ Stage 3 (Perpetual): Long-term equity dividends + capital appreciation
 ✅ Staff retention + lease negotiation
 ```
 
-**Your Investment** ($150K into escrow):
+**Your Investment** (¥1.5M RMB ~$210K into escrow):
 ```
 ✅ New horror theme construction (90-day build)
    ├─ Professional animatronics & FX
@@ -168,7 +170,7 @@ Stage 3 (Perpetual): Long-term equity dividends + capital appreciation
 │         ↓                                       │
 │ STEP 2: Release remainder to operations        │
 │         ↓                                       │
-│ IF Total Dividends = $150K Principal:           │
+│ IF Total Dividends = ¥1.5M RMB (~$210K) Principal: │
 │    → AUTO-CONVERT to Equity Shares              │
 └─────────────────────────────────────────────────┘
 ```
@@ -183,7 +185,7 @@ Investor Dividend (20%): $15,000 deducted FIRST
   ↓
 Operations Funding:      $75,000 released
 
-Cumulative Dividend Tracker: $15K added toward $150K goal
+Cumulative Dividend Tracker: $21K added toward $210K goal
 ```
 
 ---

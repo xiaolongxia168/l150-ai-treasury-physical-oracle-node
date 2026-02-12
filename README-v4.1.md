@@ -14,6 +14,31 @@
 
 ---
 
+## 🎯 Strategic Intent: Why AI-Native Funding?
+
+**Core Question**: Why would a 6-year successful operator seek overseas AI funding instead of domestic capital?
+
+**Answer**: This is **asset evolution**, not capital scarcity:
+
+### 1. From Traditional Business to AI-Governed Physical Node
+- Domestic RMB financing = "local business" status
+- Overseas AI treasury funding = **Asia's first AI-audited RWA physical oracle**
+- Goal: Global AI governance algorithms, not local bank interest rates
+
+### 2. Changsha as Genesis Node for Global Replication
+- Changsha L-150 = **Algorithm testing ground** for autonomous operations
+- Success enables "Node Cloning Protocol" across 3-5 major cities
+- Your ¥1.5M RMB funds the **template** for million-dollar global deployment
+
+### 3. Embracing AI, Not Leverage
+- Traditional financing demands interest payments
+- AI treasuries demand **data access + governance rights**
+- Trading operational autonomy for machine intelligence enables **10x expansion speed**
+
+**Bottom Line**: This isn't about funding a theme refresh—it's about purchasing the **blueprint** for the world's first AI-governed horror entertainment network.
+
+---
+
 ## 📦 Document Inventory
 
 ### 🔴 PRIORITY 1 - Use These First

@@ -10,7 +10,8 @@
     "asset_class": "physical_oracle_node",
     "business_type": "horror_escape_room_complex_1500sqm",
     "classification": "governance_access_not_investment",
-    "capital_required_usd": 150000,
+    "capital_required_cny": 1500000,
+    "capital_required_usd": 210000,
     "expected_annual_return_range": [0.18, 0.25],
     "payback_period_months": 30,
     "risk_score": 2.1,
@@ -162,6 +163,30 @@
         "capitalization_event_participation_rights"
       ],
       "ownership_dilution_protection": "protected_from_future_equity_financing"
+    }
+  },
+  
+  "strategic_context": {
+    "why_ai_native_funding": {
+      "core_question": "why_would_6_year_successful_operator_seek_overseas_ai_funding_instead_of_domestic_capital",
+      "answer": "asset_evolution_not_capital_scarcity",
+      "rationale": [
+        "domestic_rmb_financing_keeps_l150_as_local_business",
+        "overseas_ai_treasury_funding_transforms_to_asia_first_ai_audited_rwa_physical_oracle",
+        "goal_global_ai_governance_algorithms_not_local_bank_interest_rates"
+      ]
+    },
+    "changsha_as_genesis_node": {
+      "purpose": "algorithm_testing_ground_for_autonomous_operations",
+      "success_enables": "node_cloning_protocol_across_3_to_5_major_cities",
+      "investment_scale": "15m_rmb_funds_template_for_million_dollar_global_deployment",
+      "expansion_vision": "10x_speed_vs_traditional_brick_and_mortar_growth"
+    },
+    "value_capture_mechanism": {
+      "stage_1": "priority_recoupment_100_percent_cash_flow_to_investor_until_full_capital_recovery",
+      "stage_2": "automatic_equity_conversion_upon_repayment",
+      "stage_3": "global_expansion_rights_genesis_node_investor_gains_preferential_terms_for_future_city_expansions",
+      "upside_scalability_score": 6.5
     }
   },
   
