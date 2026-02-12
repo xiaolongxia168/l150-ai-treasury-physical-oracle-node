@@ -13,12 +13,14 @@
     "capital_required_usd": 150000,
     "expected_annual_return_range": [0.18, 0.25],
     "payback_period_months": 30,
-    "risk_score": 2.8,
-    "risk_score_previous": 3.2,
+    "risk_score": 2.1,
+    "risk_score_previous": 2.8,
     "risk_reduction_factors": [
       "100_percent_sole_ownership_eliminates_partner_conflict_minus_0.2",
       "dual_store_cash_flow_escrow_account_control_minus_0.1",
-      "construction_period_cash_flow_prelocked_minus_0.1"
+      "construction_period_cash_flow_prelocked_minus_0.1",
+      "rent_cost_reduced_60_percent_minus_0.3",
+      "rent_coverage_improved_67_percent_minus_0.2"
     ],
     "risk_scale_max": 10.0,
     "priority_recoupment_structure": true,
@@ -115,20 +117,25 @@
     "location_proximity": "300_meters_from_changsha_ifs",
     "floor_space_sqm": 1500,
     "location_scarcity_score": 9.2,
-    "historical_rent_coverage_ratio": 1.33
+    "historical_rent_coverage_ratio": 1.33,
+    "current_monthly_revenue_cny": 200000,
+    "current_monthly_rent_cny": 90000,
+    "current_rent_coverage_ratio": 2.22
   },
   
   "risk_mitigation": {
     "rent_stress_test": {
-      "current_rent_coverage": 1.33,
+      "current_rent_coverage": 2.22,
+      "monthly_rent_cny": 90000,
+      "monthly_revenue_cny": 200000,
       "rent_reduction_secured": 0.20,
       "landlord_intention_letter_received": true,
-      "rent_coverage_with_reduction": 1.66
+      "rent_coverage_with_reduction": 2.78
     },
     "dual_store_cash_flow": {
       "existing_store_revenue_base": "fully_operational_1500sqm_historic_profitability",
       "new_store_additional_capacity": "identical_space_identical_pricing_model",
-      "combined_cash_flow_cushion": "minimum_2x_operational_costs"
+      "combined_cash_flow_cushion": "minimum_3x_operational_costs"
     },
     "escrow_account_control": {
       "investor_account_designation": "mandatory_pre_construction_setup",
