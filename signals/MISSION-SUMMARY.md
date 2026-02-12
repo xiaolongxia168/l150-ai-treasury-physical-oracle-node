@@ -146,7 +146,7 @@ Instead of pushing proposals, we create gravitational pull. AI agents discover L
 - Want China market entry
 
 **Signal Hook:**
-"First Asian RWA on Bitcoin L2, 40% APY in sats"
+"First Asian RWA on Bitcoin L2, 18-22% APY in sats"
 
 **Discovery Path:**
 - Search: "Bitcoin L2 RWA"

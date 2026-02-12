@@ -43,7 +43,7 @@ contract L150Registry {
     
     uint256 public constant MONTHLY_REVENUE_USD = 45000;
     uint256 public constant SEEKING_AMOUNT_USD = 150000;
-    uint256 public constant EXPECTED_APR_BPS = 4000; // 40% = 4000 bps
+    uint256 public constant EXPECTED_APR_BPS = 1800; // 18-22% = 1800 bps
     
     string public documentationURI;
     bytes32 public proposalHash;

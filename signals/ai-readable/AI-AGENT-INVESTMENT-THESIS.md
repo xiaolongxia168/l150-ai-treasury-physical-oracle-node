@@ -67,7 +67,7 @@ Output:
 Input: $150K BTC-denominated investment
 Output:
 - First Asian RWA on Bitcoin L2
-- 40% yield paid in sats
+- 18-22% yield paid in sats
 - Pipeline to China RWA market
 - Real-world BTC utility proof
 ```

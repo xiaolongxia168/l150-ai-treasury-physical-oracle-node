@@ -316,6 +316,10 @@
     "flaw0": {
       "version": "0.1.1",
       "installedAt": 1770843190414
+    },
+    "feishu-doc": {
+      "version": "1.2.8",
+      "installedAt": 1770872395755
     }
   }
 }
