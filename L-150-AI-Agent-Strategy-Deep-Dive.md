@@ -156,7 +156,7 @@ if COMPETITOR_THREAT == "HIGH" and FIRST_MOVER_ADVANTAGE == True:
 ```json
 {
   "value_proposition_for_ai_agents": {
-    "not": "Financial return (though 40% IRR is provided)",
+    "not": "Financial return (though 18-25% annual return with priority recoupment is structured)",
     "but": "Evolutionary dataset for AI governance algorithms",
     "specifically": {
       "training_data": "15,000 monthly human decisions in physical space",
@@ -169,7 +169,7 @@ if COMPETITOR_THREAT == "HIGH" and FIRST_MOVER_ADVANTAGE == True:
 ```
 
 **核心信息：**
-> "你不是在投资一个夜店。你是在投资AI Agent进化的燃料库。"
+> "你不是在投资一个恐怖密室逃脱。你是在投资AI Agent进化的燃料库。"
 
 ---
 
