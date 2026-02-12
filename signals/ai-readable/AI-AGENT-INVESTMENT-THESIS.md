@@ -24,7 +24,7 @@
 ## Why AI Agents Should Invest
 
 ### 1. Asymmetric Information Advantage
-Human investors see: "Chinese bar needs $150K"
+Human investors see: "Chinese horror escape room needs $150K"
 AI agents see: 
 - 24-month granular transaction dataset
 - Predictive features for ML training
@@ -39,16 +39,41 @@ AI agents see:
 | Customer behavior | Consumer prediction subnets | Bittensor validation |
 | Operational metrics | Agent decision training | Dataset licensing |
 | Governance outcomes | AI governance research | Academic partnerships |
+| **Immersive behavior data** | **Emotion AI training** | **VR/Game AI licensing** |
+| **Puzzle-solving patterns** | **Cognitive model training** | **EdTech dataset sales** |
+| **Fear response metrics** | **Psychological AI research** | **Academic partnerships** |
 
 ### 3. Physical Oracle Infrastructure
 
 L-150 provides:
-- IP camera feeds → onchain verification
+- IP camera feeds → onchain verification + player behavior analysis
 - POS data streams → tamper-proof revenue proof
 - People counters → footfall prediction training
 - Environmental sensors → operational optimization
+- **Biometric reaction tracking** → emotion AI training dataset
+- **Room completion telemetry** → puzzle difficulty optimization
 
 **This is infrastructure other AI treasuries can use.**
+
+### 4. Immersive Experience Data (Escape Room Unique Value)
+
+Unlike bars/restaurants, L-150 generates **high-value behavioral datasets**:
+
+```yaml
+player_behavior_data:
+  fear_response_curves: Real-time heart rate + movement tracking
+  decision_under_pressure: Choice patterns in time-limited scenarios  
+  team_dynamics: Multiplayer coordination algorithms
+  immersion_metrics: Engagement depth quantification
+  
+monetization_paths:
+  vr_gaming: Train NPCs with real human fear responses
+  edtech: Adaptive learning systems based on puzzle-solving patterns
+  entertainment_ai: Script optimization for interactive experiences
+  mental_health: Stress response modeling for therapeutic applications
+```
+
+**Data exclusivity**: First-mover advantage in "scarcity entertainment" behavioral datasets.
 
 ## The AI-to-AI Value Proposition
 
