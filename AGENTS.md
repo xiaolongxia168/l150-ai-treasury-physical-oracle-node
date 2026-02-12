@@ -211,6 +211,20 @@ The goal: Be helpful without being annoying. Check in a few times a day, do usef
 
 ## 📚 Lessons Learned (From Recent Work)
 
+### Self-Improvement Pattern Analysis (2026-02-13)
+**Key Finding**: Successful complex tasks share common patterns:
+1. **Document-First Approach**: JSON data packets for AI agents + Markdown narratives for humans
+2. **Iterative Correction Loops**: User feedback → immediate document updates → version bump (v4→v4.1)
+3. **Multi-Model Orchestration**: DeepSeek (speed/cost) → Claude (reasoning) → Kimi (Chinese nuance)
+4. **Frequent Micro-Commits**: Every significant change committed immediately, not batched
+5. **Explicit State Logging**: All decisions logged to memory/YYYY-MM-DD.md with timestamps
+
+### Cron Task Optimization Lessons
+- **Timeout Management**: Default 300s insufficient for research tasks; use 600s+ with explicit scope limits
+- **Task Granularity**: Monolithic scanners fail; decompose into: (1) quick health checks (2) deep analysis (separate jobs)
+- **Error Recovery**: Consecutive error tracking enables automatic backoff; reset counters on manual intervention
+- **Delivery Mode**: `none` for high-frequency background tasks; `announce` only for actionable results
+
 ### API Authentication Patterns
 - **Feishu API**: User IDs need `ou_` prefix for open_id format. Raw numeric IDs fail.
 - **GitHub Tokens**: Personal Access Tokens expire and cause cascading failures across cron jobs. Track expiry dates in TOOLS.md.
@@ -239,7 +253,8 @@ The goal: Be helpful without being annoying. Check in a few times a day, do usef
 - Gateway timeout issues happen — design jobs to be idempotent and recoverable.
 - Failed jobs should log detailed error context to memory files for debugging.
 - Separate job IDs make it easier to track which automation is failing.
-- **Current issue**: AI treasury scanner hitting timeout after ~16min (7200ms interval, 994079ms duration) — needs task splitting or model switching.
+- **Optimized Pattern**: AI treasury scanner reduced from ~16min to ~50s by limiting scope to curl-based health checks only (no complex API calls)
+- **State Monitoring**: Use `consecutiveErrors` counter to trigger alerts; currently all production jobs at 0 errors
 
 ### Deployment & Infrastructure
 - **Vercel CLI proxy issues**: Known bug with `ProxyAgent is not a constructor` on some Node.js versions — prefer GitHub-Vercel integration or GitHub Pages as fallback.
@@ -255,10 +270,17 @@ The goal: Be helpful without being annoying. Check in a few times a day, do usef
 
 ## 🛠️ Recommended Skill Stack (From Experience)
 
+### New Skills to Consider (Post-Analysis)
+Based on recent work patterns, these skills would improve efficiency:
+- `git-workflows` — For advanced branching strategies when managing multiple document versions
+- `skill-vetter` — Before installing any external skill; security-first validation
+- `openspec` — Structured spec-driven development for complex document suites like L-150 v4.1
+- `perf-profiler` — When cron tasks timeout, identify bottlenecks before splitting jobs
+
 ### Essential Daily Use
 - `git-sync` — After every significant change, without fail
 - `feishu-bot` / `feishu-doc` — Primary communication channels
-- `cron` — Automate repetitive checks
+- `cron` — Automate repetitive checks (now optimized with proper timeout configuration)
 
 ### When Things Break
 - `unfuck-my-git-state` — Git recovery without panic
