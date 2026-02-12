@@ -95,7 +95,7 @@ Governors cannot vote to:
     "session_type",
     "customer_count"
   ],
-  "merkle_anchor": "Etherum_Mainnet",
+  "merkle_anchor": "Ethereum_Mainnet",
   "verification_delay": "< 60 seconds"
 }
 ```
