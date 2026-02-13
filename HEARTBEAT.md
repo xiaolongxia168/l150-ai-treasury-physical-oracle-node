@@ -8,20 +8,31 @@
 - **Job ID:** d70a690a-e923-4ae6-9df6-17a8cf7378ca
 
 ### 2. AI Treasury Scanner  
-- **Schedule:** Every 2 hours
+- **Status:** ⚠️ **DISABLED** (due to timeout issues)
+- **Schedule:** Every 2 hours (currently disabled)
 - **Task:** Scan for AI treasury activity, GitHub stars, API requests, forum mentions
 - **Job ID:** efe651de-d00d-445d-b470-8f19726cb8cd
+- **Note:** Disabled on 2026-02-13 to prevent gateway instability. Will be optimized and re-enabled.
 
 ### 3. Self-Improvement Check
 - **Schedule:** Every 6 hours (at :00)
 - **Task:** Review work patterns, update AGENTS.md, install new skills
 - **Job ID:** 66fd3cb9-af6a-401e-a5c0-1f7430dcb28e
 
+### 4. Gateway Health Monitor 
+- **Status:** ✅ **ACTIVE** (cron job: gateway-health-monitor)
+- **Schedule:** Every 30 minutes
+- **Task:** Check gateway process status, restart if crashed
+- **Job ID:** db0c8767-f132-41a4-a043-c965066c4907
+- **Purpose:** Prevent morning crashes reported by user
+- **Note:** Automatically restarts gateway if not running; kills zombie processes on port 18789
+
 ## Manual Checklist (When Human Asks)
 
 ### Daily Checks
 - [ ] L-150 GitHub repo status
 - [ ] API server health
+- [ ] Gateway service health (check `openclaw gateway status`)
 - [ ] Any AI treasury signals
 - [ ] New skills to install
 
@@ -40,10 +51,12 @@
 ## Emergency Contacts
 
 If something goes wrong:
-1. Check logs in memory/
-2. Review cron job status
-3. Attempt recovery via emergency-rescue skill
-4. Log all actions
+1. Check gateway status: `openclaw gateway status`
+2. If gateway not running: `openclaw gateway start` or `openclaw gateway restart`
+3. Check logs in memory/
+4. Review cron job status
+5. Attempt recovery via emergency-rescue skill
+6. Log all actions
 
 ## Active Missions
 
