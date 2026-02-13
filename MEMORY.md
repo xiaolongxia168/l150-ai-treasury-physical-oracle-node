@@ -159,4 +159,37 @@
 *最后更新: 2026-02-13 10:04 GMT+8*
 *当前主力模型: DeepSeek Reasoner*
 *主要通信渠道: 飞书 (双向可用)*
+## 2026-02-13 出海资料包下架行动
+
+**用户指令**: 下架全部的出海的资料包一个不留（GitHub等），等待新指令上传新的出海资料
+
+### 🗑️ 已执行的下架操作
+1. **主仓库 (l150-ai-treasury-physical-oracle-node)**:
+   - 删除所有L-150-*文档文件（59个文件）
+   - 删除v4.1文档包（README-v4.1.md, 00-CRITICAL-UPDATES-v4.1.md等）
+   - 删除AI财库相关文件（AI-TREASURY-PAYLOAD-v4.1.json等）
+   - 提交并推送至GitHub
+
+2. **API仓库 (l150-api)**:
+   - 删除docs/目录下的所有v4.1文档
+   - 删除audit-governance-rights.json等配置文件
+   - 提交并推送至GitHub
+
+3. **静态API仓库 (l150-api-static)**:
+   - 删除api/v1/目录下的所有JSON数据文件（project.json, proposals/*.json等）
+   - 提交并推送至GitHub
+
+4. **本地文件清理**:
+   - 移动桌面资料包：`/Users/xiaolongxia/Desktop/小龙虾出海部分资料包` → 备份位置
+   - 删除工作空间中的`L-150-evidence`目录
+   - 保留工作空间结构，等待新资料上传
+
+### 🔄 当前状态
+- 所有三个GitHub仓库已清理出海资料
+- 本地备份保留，原始资料包已移动至备份位置
+- 仓库结构保持完整，等待用户上传新的出海资料
+
+**下架完成时间**: 2026-02-13 14:54 GMT+8
+
+---
 *文档状态: v4.1 完整套件已部署，GitHub Pages正常，Vercel部署中*
