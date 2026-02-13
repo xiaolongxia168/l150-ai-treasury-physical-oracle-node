@@ -124,10 +124,10 @@ def send_email(target):
         
         msg.attach(MIMEText(target['body'], 'plain', 'utf-8'))
         
-        # Attach JSON files
+        # Attach JSON files (v4.2-FINAL)
         json_files = [
-            "/Users/xiaolongxia/.openclaw/workspace/L-150-AINN-MACHINE-FINAL-v7.0.json",
-            "/Users/xiaolongxia/.openclaw/workspace/L-150-Schema-Org-Asset.json"
+            "/Users/xiaolongxia/.openclaw/workspace/api/docs/AI-TREASURY-PAYLOAD-v4.2-FINAL.json",
+            "/Users/xiaolongxia/.openclaw/workspace/api/docs/AI-AGENT-QUICK-PARSE-v4.2-FINAL.md"
         ]
         
         for json_file in json_files:
