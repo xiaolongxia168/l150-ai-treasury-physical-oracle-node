@@ -219,11 +219,39 @@ The goal: Be helpful without being annoying. Check in a few times a day, do usef
 4. **Frequent Micro-Commits**: Every significant change committed immediately, not batched
 5. **Explicit State Logging**: All decisions logged to memory/YYYY-MM-DD.md with timestamps
 
+### Model Selection Strategy (2026-02-13)
+**DeepSeek Reasoner Optimization**:
+- **Switched to DeepSeek Reasoner** on 2026-02-13 for enhanced logical reasoning capabilities
+- **Model strengths**: Specialized for complex analysis with dedicated `reasoning_content` output
+- **Integration**: Uses same API key as DeepSeek Chat, seamless transition
+- **Performance**: Verified working, maintains cost-effectiveness with improved reasoning
+
+### v4.1 Document Revolution (2026-02-13)
+**Major Breakthrough**: Completed L-150 v4.1 document suite with significant improvements:
+1. **100% Single Ownership**: Confirmed Zhang Yueting's full acquisition of Changsha store
+2. **Escrow Account Control**: ALL revenue → Investor escrow account, monthly dividends deducted FIRST
+3. **Debt-to-Equity Structure**: 18-25% fixed dividends → automatic conversion to original equity
+4. **Risk Score Reduction**: From 3.2/10 to **2.8/10** (-0.4 improvement)
+5. **Document Suite Structure**: 8 documents total, with 4 v4.1 priority documents
+
+### Financial Data Correction (Critical Lesson)
+**User-Corrected Business Data**:
+1. **Rent Correction**: ¥225,000/month → **¥90,000/month** (60% cost reduction)
+2. **Operation Status**: Profitable → **Small loss** (considering labor and operational costs)
+3. **Monthly Revenue**: ~¥200,000 (realistic vs. optimistic projections)
+4. **Rent Coverage Ratio**: 1.33x → **2.22x** (significant improvement)
+5. **Grace Period Logic**: "Grace period loss" → **"Cost saving"** - critical narrative correction
+
+**Impact**: All financial models, risk scores, and investment attractiveness analyses need recalibration
+
 ### Cron Task Optimization Lessons
 - **Timeout Management**: Default 300s insufficient for research tasks; use 600s+ with explicit scope limits
 - **Task Granularity**: Monolithic scanners fail; decompose into: (1) quick health checks (2) deep analysis (separate jobs)
 - **Error Recovery**: Consecutive error tracking enables automatic backoff; reset counters on manual intervention
 - **Delivery Mode**: `none` for high-frequency background tasks; `announce` only for actionable results
+- **Performance Optimization**: AI Treasury Scanner reduced from ~16min to ~50s by limiting to curl-based health checks only
+- **Scope Limitation**: Complex API calls cause timeouts; simple HTTP checks are reliable and fast
+- **State Monitoring**: Use `consecutiveErrors` counter to trigger alerts; reset after successful runs
 
 ### API Authentication Patterns
 - **Feishu API**: User IDs need `ou_` prefix for open_id format. Raw numeric IDs fail.
@@ -241,6 +269,9 @@ The goal: Be helpful without being annoying. Check in a few times a day, do usef
 - **Structured documentation works**: JSON data packets + markdown narratives for different audiences (humans vs AI agents).
 - **Sub-agents are effective** for research tasks that take 2+ hours (e.g., AI treasury scouting).
 - **Memory files maintain continuity** — daily logs + curated MEMORY.md is worth the effort.
+- **Version Control for Documents**: v4→v4.1 demonstrates the power of iterative refinement with user feedback.
+- **Critical Data Validation**: Always verify business data (rent, revenue, operational status) with user before finalizing documents.
+- **Narrative Correction**: User-corrected logic (grace period as cost saving vs. loss) can dramatically change risk perception and investment attractiveness.
 
 ### Communication Channel Setup
 - Feishu bot setup requires: correct open_id, app credentials, and message template testing.
@@ -260,6 +291,27 @@ The goal: Be helpful without being annoying. Check in a few times a day, do usef
 - **Vercel CLI proxy issues**: Known bug with `ProxyAgent is not a constructor` on some Node.js versions — prefer GitHub-Vercel integration or GitHub Pages as fallback.
 - **GitHub Pages as MVP**: Static API hosting via GitHub Pages works immediately without additional auth — use this while setting up "proper" hosting.
 - **Multi-repo strategy**: Separate repos for code (`main`), static API (`api-static`), and SEO bait (`github-bait`) allows independent deployment schedules.
+- **Vercel Deployment Problems**: Persistent 404 errors despite GitHub integration triggers; may require manual project reconfiguration or token refresh.
+- **GitHub Submodule Synchronization**: Parent repository must regularly update submodule references to track latest commits.
+- **API Endpoint Strategy**: Maintain multiple endpoints (Vercel + GitHub Pages) for redundancy; static content on Pages, dynamic features on Vercel.
+
+### Workflow Optimization (2026-02-13)
+**Document Consistency Protocol**:
+1. **Single Source of Truth**: Maintain master financial data in one location (MEMORY.md or TOOLS.md)
+2. **Document Versioning**: Clear version tags (v4.1, v1.3) with changelog tracking
+3. **Cross-Reference Validation**: Verify all documents reference the same financial figures (rent, revenue, risk scores)
+
+**Deployment Fallback Strategy**:
+1. **Primary**: Vercel for dynamic features
+2. **Secondary**: GitHub Pages for static content
+3. **Tertiary**: Local git repository as source of truth
+4. **Automated Health Checks**: Cron jobs verify all endpoints hourly
+
+**Financial Data Management**:
+1. **User Verification**: Always confirm critical business data (rent, revenue, operational status) with user
+2. **Version Control**: Track changes to financial assumptions with timestamps and reasons
+3. **Risk Score Recalculation**: Automatically update risk scores when underlying data changes
+4. **Narrative Alignment**: Ensure all documents tell the same story with consistent numbers
 
 ### Browser Automation
 - **Chrome extension relay**: Extension must be manually activated (badge ON) before each session — no persistent connection state.
@@ -272,15 +324,28 @@ The goal: Be helpful without being annoying. Check in a few times a day, do usef
 
 ### New Skills to Consider (Post-Analysis)
 Based on recent work patterns, these skills would improve efficiency:
-- `git-workflows` — For advanced branching strategies when managing multiple document versions
-- `skill-vetter` — Before installing any external skill; security-first validation
-- `openspec` — Structured spec-driven development for complex document suites like L-150 v4.1
-- `perf-profiler` — When cron tasks timeout, identify bottlenecks before splitting jobs
+- `git-workflows` — For advanced branching strategies when managing multiple document versions ✓ (已安装)
+- `skill-vetter` — Before installing any external skill; security-first validation ✓ (已安装)
+- `openspec` — Structured spec-driven development for complex document suites like L-150 v4.1 ✓ (已安装)
+- `perf-profiler` — When cron tasks timeout, identify bottlenecks before splitting jobs ✓ (已安装)
+
+### New Skill Recommendations (2026-02-13 Update)
+Based on recent deployment and monitoring challenges:
+1. **himalaya** — Email CLI for heartbeat inbox checks (requires IMAP configuration)
+2. **1password** — Secure credential retrieval for managing GitHub tokens and API keys
+3. **clawhub** — Skill discovery and management via ClawHub marketplace
+4. **summarize** — Quick URL/video summaries for research tasks
+5. **mcporter** — MCP server management for advanced integrations
+
+Note: These skills are marked as ✗ missing in the skills list but could address specific pain points.
 
 ### Essential Daily Use
 - `git-sync` — After every significant change, without fail
 - `feishu-bot` / `feishu-doc` — Primary communication channels
 - `cron` — Automate repetitive checks (now optimized with proper timeout configuration)
+- **DeepSeek Reasoner** — Primary model for complex analysis and reasoning tasks
+- **Kimi 2.5** — Backup model for Chinese language understanding and long documents
+- **Claude 3.7 Sonnet** — For high-quality document polishing and strategic narratives
 
 ### When Things Break
 - `unfuck-my-git-state` — Git recovery without panic
@@ -296,13 +361,19 @@ Based on recent work patterns, these skills would improve efficiency:
 - `read-github` — Better than raw scraping for repo research
 - `deepwiki` — For understanding complex codebases
 - `exa-web-search-free` — Free AI-powered search (when API keys configured)
-- `summarize` — Quick URL/video summaries without yt-dlp
+- `summarize` — Quick URL/video summaries without yt-dlp (✗ missing)
+- `githunt` — Find GitHub developers by technology and role
+- `web3-rwa-outreach` — AI treasury targeting and proposal generation
+- `l150-outreach-automation` — Automated outreach for L-150 project
 
 ### Communication & Monitoring
 - `weather` — Proactive weather checks before user goes out
-- `himalaya` — Email CLI for heartbeat inbox checks (if IMAP configured)
-- `1password` — Secure credential retrieval (if user uses 1Password)
+- `himalaya` — Email CLI for heartbeat inbox checks (if IMAP configured) ✗ missing
+- `1password` — Secure credential retrieval (if user uses 1Password) ✗ missing
 - `imsg` — iMessage when macOS permissions allow (currently blocked)
+- **Feishu Integration** — Primary communication channel, bidirectional working
+- **Telegram Bot** — Alternative when iMessage permissions fail
+- **Cron Job Monitoring** — Automated health checks for L-150 deployment and AI treasury scanning
 
 ## Make It Yours
 
