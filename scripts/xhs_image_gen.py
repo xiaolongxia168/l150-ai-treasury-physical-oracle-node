@@ -24,7 +24,7 @@ def generate_image(prompt, model="dall-e-3", size="1024x1024", quality="hd", sty
     # 构建命令
     cmd = [
         "python3", 
-        str(BASE_DIR / "scripts" / "gen.py"),
+        str(BASE_DIR / "gen.py"),
         "--prompt", prompt,
         "--model", model,
         "--size", size,
