@@ -379,15 +379,15 @@ Based on recent work patterns, these skills would improve efficiency:
 - `openspec` — Structured spec-driven development for complex document suites like L-150 v4.1 ✓ (已安装)
 - `perf-profiler` — When cron tasks timeout, identify bottlenecks before splitting jobs ✓ (已安装)
 
-### New Skill Recommendations (2026-02-13 Update)
+### New Skill Recommendations (2026-02-13 Update) - ✅ INSTALLED
 Based on recent deployment and monitoring challenges:
-1. **himalaya** — Email CLI for heartbeat inbox checks (requires IMAP configuration)
-2. **1password** — Secure credential retrieval for managing GitHub tokens and API keys
+1. **himalaya** ✅ **INSTALLED** — Email CLI for heartbeat inbox checks (requires IMAP configuration)
+2. **1password** ✅ **INSTALLED** — Secure credential retrieval for managing GitHub tokens and API keys
 3. **clawhub** — Skill discovery and management via ClawHub marketplace
-4. **summarize** — Quick URL/video summaries for research tasks
+4. **summarize** ✅ **INSTALLED** — Quick URL/video summaries for research tasks
 5. **mcporter** — MCP server management for advanced integrations
 
-Note: These skills are marked as ✗ missing in the skills list but could address specific pain points.
+Note: 3 out of 5 recommended skills have been installed to address stability and automation challenges.
 
 ### Essential Daily Use
 - `git-sync` — After every significant change, without fail

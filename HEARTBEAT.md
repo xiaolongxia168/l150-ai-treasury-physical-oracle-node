@@ -35,12 +35,16 @@
 - [ ] Gateway service health (check `openclaw gateway status`)
 - [ ] Any AI treasury signals
 - [ ] New skills to install
+- [ ] Email inbox check (via himalaya if configured)
+- [ ] API token expiry check (via 1password if configured)
 
 ### Weekly Checks  
 - [ ] Review cron job logs
 - [ ] Optimize automation workflows
 - [ ] Update MEMORY.md with learnings
 - [ ] Check for security updates
+- [ ] Test new skills functionality (himalaya, summarize, 1password)
+- [ ] Review skill permissions and security
 
 ### Monthly Checks
 - [ ] Full system health check
@@ -69,3 +73,29 @@ If something goes wrong:
 - **Status:** Continuous
 - **Next Action:** Install useful skills, optimize workflows
 - **Success Metric:** More capabilities, faster execution
+
+## New Stability Skills Installed (2026-02-13)
+
+### ✅ Installed for Enhanced Stability:
+1. **himalaya** - Email CLI for heartbeat inbox checks
+   - Purpose: Monitor important emails during heartbeat checks
+   - Status: ✅ Installed, needs IMAP configuration
+
+2. **summarize** - Quick URL/video summaries
+   - Purpose: Reduce research time for complex tasks
+   - Status: ✅ Installed, ready to use
+
+3. **1password** - Secure credential management
+   - Purpose: Avoid API token expiry causing automation failures
+   - Status: ✅ Installed, needs 1Password app integration
+
+### 🔧 Configuration Needed:
+1. **himalaya**: Configure IMAP/SMTP in `~/.config/himalaya/config.toml`
+2. **1password**: Enable desktop app integration and sign in
+3. **summarize**: Set API key for preferred model (optional)
+
+### 📈 Expected Stability Improvements:
+- **Email monitoring**: Catch important notifications faster
+- **Credential management**: Prevent token expiry failures  
+- **Research efficiency**: Faster decision-making with summarize
+- **Automation reliability**: Fewer interruptions due to expired tokens
