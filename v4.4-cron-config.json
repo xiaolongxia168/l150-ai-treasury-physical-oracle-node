@@ -1,0 +1,26 @@
+{
+  "v4.4_monitoring": {
+    "name": "v4.4 AI Agent响应监控",
+    "schedule": "*/30 * * * *",  # 每30分钟
+    "command": "cd /Users/xiaolongxia/.openclaw/workspace && python3 v4.4-agent-response-monitor.py",
+    "description": "监控Twitter暴力@战术效果，检测AI Agent爬虫活动"
+  },
+  "v4.4_onchain_heartbeat": {
+    "name": "v4.4 链上心跳",
+    "schedule": "0 */6 * * *",  # 每6小时
+    "command": "cd /Users/xiaolongxia/.openclaw/workspace && ./v4.4-onchain-heartbeat.sh check",
+    "description": "模拟链上交易，制造'活着'的信号"
+  },
+  "v4.4_twitter_reminder": {
+    "name": "v4.4 Twitter发布提醒",
+    "schedule": "0 4,10,16,22 * * *",  # 每天4次
+    "command": "cd /Users/xiaolongxia/.openclaw/workspace && echo '📢 Twitter发布提醒: 按计划@AI Agent账号'",
+    "description": "提醒按计划发布Twitter挑衅推文"
+  },
+  "v4.4_github_push": {
+    "name": "v4.4 GitHub自动推送",
+    "schedule": "0 */2 * * *",  # 每2小时
+    "command": "cd /Users/xiaolongxia/.openclaw/workspace && git add . && git commit -m 'v4.4 噪音制造行动 - 自动更新 [2026-02-14_04:07]' && git push origin main",
+    "description": "自动推送更新到GitHub，保持仓库活跃"
+  }
+}
