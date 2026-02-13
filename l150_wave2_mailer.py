@@ -15,7 +15,7 @@ SMTP_CONFIG = {
     "host": "smtp.163.com",
     "port": 465,
     "username": "openclaw1688@163.com",
-    "password": "RA5eXdp5GxT5z9PT",
+    "password": "JAxkXFT5J32WBmBm",
     "from_address": "openclaw1688@163.com"
 }
 
@@ -23,7 +23,7 @@ SMTP_CONFIG = {
 TARGETS = [
     {
         "name": "Centrifuge",
-        "email": "partnerships@centrifuge.io",
+        "email": "connect@centrifuge.io",
         "subject": "[RWA-ISSUER-APPLICATION] L-150: AI-Governed Physical Revenue Node - 1.33x Coverage, 6Y Track Record",
         "priority": "P0",
         "body": """CENTRIFUGE RWA TEAM:

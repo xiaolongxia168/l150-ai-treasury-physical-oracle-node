@@ -16,7 +16,7 @@ SMTP_CONFIG = {
     "host": "smtp.163.com",
     "port": 465,  # SSL port
     "username": "openclaw1688@163.com",
-    "password": "RA5eXdp5GxT5z9PT",
+    "password": "JAxkXFT5J32WBmBm",
     "from_address": "openclaw1688@163.com"
 }
 
