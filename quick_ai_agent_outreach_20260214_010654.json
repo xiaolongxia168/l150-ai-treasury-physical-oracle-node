@@ -1,0 +1,44 @@
+{
+  "execution_time": "2026-02-14T01:06:54.460021",
+  "batch_size": 5,
+  "success_rate": 100.0,
+  "results": [
+    {
+      "agent": "github_agent_0",
+      "platform": "github",
+      "status": "success",
+      "time": "01:06:50"
+    },
+    {
+      "agent": "github_agent_1",
+      "platform": "github",
+      "status": "success",
+      "time": "01:06:51"
+    },
+    {
+      "agent": "github_agent_2",
+      "platform": "github",
+      "status": "success",
+      "time": "01:06:52"
+    },
+    {
+      "agent": "github_agent_3",
+      "platform": "github",
+      "status": "success",
+      "time": "01:06:53"
+    },
+    {
+      "agent": "github_agent_4",
+      "platform": "github",
+      "status": "success",
+      "time": "01:06:54"
+    }
+  ],
+  "total_agents_identified": 158,
+  "next_steps": [
+    "监控回应情况（24-72小时窗口）",
+    "准备社交媒体内容（12小时后开始）",
+    "扩展到100+接触目标",
+    "优化话术基于早期反馈"
+  ]
+}
