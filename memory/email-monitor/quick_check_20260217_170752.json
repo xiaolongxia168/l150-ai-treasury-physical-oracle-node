@@ -1,0 +1,8 @@
+{
+  "check_time": "2026-02-17T17:07:52.257992",
+  "connected": true,
+  "total_emails": 0,
+  "unread_count": 0,
+  "ai_emails_found": 0,
+  "error": "command SEARCH illegal in state AUTH, only allowed in states SELECTED"
+}
