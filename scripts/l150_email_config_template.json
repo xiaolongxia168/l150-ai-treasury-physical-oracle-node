@@ -1,0 +1,25 @@
+{
+  "email_host": "imap.163.com",
+  "email_port": 993,
+  "email_user": "xiaolongxia168@163.com",
+  "email_password": "YOUR_CLIENT_AUTHORIZATION_PASSWORD",
+  "alert_keywords": [
+    "AI财库", "AINN", "HDAO", "Centrifuge", "Ondo", "SingularityNET",
+    "技术团队", "会议时间", "尽职调查", "投资意向", "L-150", "RWA",
+    "treasury", "investment", "meeting", "due diligence", "follow up",
+    "reply", "response", "interested", "discuss", "call", "zoom"
+  ],
+  "sender_keywords": [
+    "ainn.xyz", "humanitydao.io", "centrifuge.io", "ondo.finance", "singularitynet.io",
+    "treasury", "investor", "partnership", "dao", "fund"
+  ],
+  "check_interval_minutes": 30,
+  "emergency_response_timeout_minutes": 5,
+  "notification_channels": ["feishu", "email"],
+  "response_materials": {
+    "technical_questions": "docs/technical-faq-v4.2.md",
+    "meeting_scheduling": "docs/meeting-availability-v4.2.md",
+    "due_diligence": "docs/due-diligence-package-v4.2.zip",
+    "investment_terms": "docs/investment-term-sheet-v4.2.md"
+  }
+}
