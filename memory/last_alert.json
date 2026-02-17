@@ -1,19 +1,18 @@
 {
-  "last_alert_time": "2026-02-18T05:50:00.000000",
+  "last_alert_time": "2026-02-18T06:23:53.240852",
   "status": "no_alert",
-  "check_count": 8,
-  "last_check": "2026-02-18T05:50:00.000000",
+  "check_count": 13,
+  "last_check": "2026-02-18T06:25:00.000000",
   "emergency_type": null,
-  "project_phase": "waiting_preparing_second_round",
-  "days_since_outreach": 4.33,
-  "response_rate": 0.0,
-  "github_engagement": 0,
-  "monitoring_coverage": "medium",
-  "next_check": "2026-02-18T05:55:00",
-  "recommended_actions": [
-    "fix_email_monitoring_tool",
-    "prepare_second_round_materials",
-    "analyze_no_response_reasons",
-    "optimize_outreach_strategy"
-  ]
+  "last_response_time": "2026-02-18T06:25:00.000000",
+  "project_status": "waiting_preparing_second_round",
+  "response_window_exceeded": 33,
+  "github_external_attention": 0,
+  "monitoring_systems": {
+    "gateway_health": "healthy",
+    "github_monitoring": "healthy",
+    "deployment_monitoring": "healthy",
+    "email_monitoring": "needs_repair",
+    "emergency_response": "healthy"
+  }
 }
