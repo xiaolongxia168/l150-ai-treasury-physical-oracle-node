@@ -1,19 +1,137 @@
 {
-  "last_check": "2026-02-18T04:46:14+08:00",
-  "status": "no_emergency",
-  "exit_code": 0,
-  "p0_signals": [],
-  "p1_signals": [],
-  "gateway_status": "healthy",
-  "github_status": "zero_engagement",
-  "email_monitoring": "needs_configuration",
-  "response_preparedness": "needs_materials",
-  "project_phase": "waiting_preparing_second_round",
-  "recommendations": [
-    "configure_email_monitoring",
-    "prepare_response_materials",
-    "analyze_no_response_reason",
-    "prepare_second_round_outreach"
+  "checks": [
+    {
+      "timestamp": "2026-02-18T05:13:58.089022",
+      "check_type": "email_alert",
+      "status": "no_emergency",
+      "details": {
+        "email_connection": "indirect_check",
+        "alert_keywords": [
+          "AI\u8d22\u5e93",
+          "AINN",
+          "HDAO",
+          "Centrifuge",
+          "Ondo",
+          "SingularityNET",
+          "\u6280\u672f\u56e2\u961f",
+          "\u4f1a\u8bae\u65f6\u95f4",
+          "\u5c3d\u804c\u8c03\u67e5",
+          "\u6295\u8d44\u610f\u5411",
+          "L-150",
+          "RWA",
+          "treasury",
+          "investment",
+          "meeting",
+          "due diligence"
+        ],
+        "sender_keywords": [
+          "ainn.xyz",
+          "humanitydao.io",
+          "centrifuge.io",
+          "ondo.finance",
+          "singularitynet.io"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-18T05:34:00.649511",
+      "check_type": "email_alert",
+      "status": "no_emergency",
+      "details": {
+        "email_connection": "indirect_check",
+        "alert_keywords": [
+          "AI\u8d22\u5e93",
+          "AINN",
+          "HDAO",
+          "Centrifuge",
+          "Ondo",
+          "SingularityNET",
+          "\u6280\u672f\u56e2\u961f",
+          "\u4f1a\u8bae\u65f6\u95f4",
+          "\u5c3d\u804c\u8c03\u67e5",
+          "\u6295\u8d44\u610f\u5411",
+          "L-150",
+          "RWA",
+          "treasury",
+          "investment",
+          "meeting",
+          "due diligence"
+        ],
+        "sender_keywords": [
+          "ainn.xyz",
+          "humanitydao.io",
+          "centrifuge.io",
+          "ondo.finance",
+          "singularitynet.io"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-18T05:44:42.998953",
+      "check_type": "email_alert",
+      "status": "no_emergency",
+      "details": {
+        "email_connection": "indirect_check",
+        "alert_keywords": [
+          "AI\u8d22\u5e93",
+          "AINN",
+          "HDAO",
+          "Centrifuge",
+          "Ondo",
+          "SingularityNET",
+          "\u6280\u672f\u56e2\u961f",
+          "\u4f1a\u8bae\u65f6\u95f4",
+          "\u5c3d\u804c\u8c03\u67e5",
+          "\u6295\u8d44\u610f\u5411",
+          "L-150",
+          "RWA",
+          "treasury",
+          "investment",
+          "meeting",
+          "due diligence"
+        ],
+        "sender_keywords": [
+          "ainn.xyz",
+          "humanitydao.io",
+          "centrifuge.io",
+          "ondo.finance",
+          "singularitynet.io"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-18T05:48:55.814701",
+      "check_type": "email_alert",
+      "status": "no_emergency",
+      "details": {
+        "email_connection": "indirect_check",
+        "alert_keywords": [
+          "AI\u8d22\u5e93",
+          "AINN",
+          "HDAO",
+          "Centrifuge",
+          "Ondo",
+          "SingularityNET",
+          "\u6280\u672f\u56e2\u961f",
+          "\u4f1a\u8bae\u65f6\u95f4",
+          "\u5c3d\u804c\u8c03\u67e5",
+          "\u6295\u8d44\u610f\u5411",
+          "L-150",
+          "RWA",
+          "treasury",
+          "investment",
+          "meeting",
+          "due diligence"
+        ],
+        "sender_keywords": [
+          "ainn.xyz",
+          "humanitydao.io",
+          "centrifuge.io",
+          "ondo.finance",
+          "singularitynet.io"
+        ]
+      }
+    }
   ],
-  "next_check": "2026-02-18T04:51:00+08:00"
+  "last_check": "2026-02-18T05:48:55.814713"
 }
