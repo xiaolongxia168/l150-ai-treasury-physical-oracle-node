@@ -1,0 +1,145 @@
+{
+  "platforms": {
+    "xiaohongshu": {
+      "enabled": true,
+      "username": "your_xiaohongshu_username",
+      "password": "your_xiaohongshu_password",
+      "cookies": "optional_cookies_here"
+    },
+    "douyin": {
+      "enabled": true,
+      "username": "your_douyin_username",
+      "password": "your_douyin_password"
+    },
+    "weibo": {
+      "enabled": true,
+      "access_token": "your_weibo_access_token"
+    },
+    "bilibili": {
+      "enabled": false,
+      "username": "your_bilibili_username",
+      "password": "your_bilibili_password"
+    }
+  },
+  "strategies": {
+    "investment_keywords": [
+      "投资",
+      "理财", 
+      "AI财库",
+      "RWA",
+      "数字资产",
+      "区块链投资",
+      "实体资产",
+      "现金流投资",
+      "稳健收益",
+      "高净值理财"
+    ],
+    "target_profiles": [
+      "高净值人群",
+      "企业家",
+      "投资人",
+      "基金经理",
+      "AI研究员",
+      "区块链从业者",
+      "数字资产持有者",
+      "传统产业转型者"
+    ],
+    "response_templates": {
+      "initial_contact": "您好，看到您对{keyword}感兴趣，我们有一个AI财库支持的RWA项目可能适合您。项目特点：1) 资方通过托管账户完全控制现金流 2) 风险评分仅2.8/10 3) 年化收益18-25%。",
+      "follow_up": "感谢您的关注！这是更多详细信息：1) 72个月运营标准差仅0.078（行业平均0.25）2) 夏普比率2.93（S&P500历史平均0.4）3) 本金损失概率0.0000。",
+      "conversion": "如果您有兴趣深入了解，我们可以安排一个15分钟的会议，详细介绍：1) 托管账户控制机制 2) 数学验证模型 3) 投资流程。"
+    },
+    "content_templates": {
+      "xiaohongshu": [
+        "📈 AI财库支持的RWA项目 | 年化18-25% | 资方完全控制现金流",
+        "💰 托管账户控制的实体资产投资 | 风险评分仅2.8/10",
+        "🎯 数学验证的现金流机器 | 72个月标准差仅0.078",
+        "🏛️ 创世治理节点招募 | 定义全球RWA治理标准"
+      ],
+      "douyin": [
+        "AI财库找上门！RWA项目年化18-25%，资方控制现金流 #投资 #理财 #AI",
+        "数学不会骗人！72个月标准差0.078，夏普比率2.93 #数字资产 #区块链",
+        "托管账户控制，风险评分2.8/10，这样的RWA项目你见过吗？ #实体资产 #现金流"
+      ],
+      "weibo": [
+        "#AI财库# 支持的RWA项目，年化收益18-25%，资方通过托管账户完全控制现金流。数学验证模型显示：72个月标准差0.078，夏普比率2.93，本金损失概率0.0000。",
+        "#RWA资产数字化# 创世治理节点招募！定义全球实体资产治理标准，托管账户控制，风险评分仅2.8/10。",
+        "#数字资产配置# 数学巡航导弹已发射！AI财库原生叙事：从投资机会转向治理节点接入。"
+      ]
+    }
+  },
+  "automation": {
+    "posting_schedule": ["09:00", "12:00", "18:00", "21:00"],
+    "monitoring_interval": 300,
+    "max_daily_interactions": 50,
+    "safety_delay": [5, 15],
+    "working_hours": {
+      "start": "09:00",
+      "end": "22:00"
+    }
+  },
+  "tasks": {
+    "xiaohongshu_search": {
+      "enabled": true,
+      "interval_hours": 6,
+      "keywords_per_search": 3,
+      "max_results": 50
+    },
+    "douyin_monitor": {
+      "enabled": true,
+      "interval_minutes": 30,
+      "keywords": ["投资", "理财", "AI财库"],
+      "max_videos": 20
+    },
+    "weibo_trending": {
+      "enabled": true,
+      "interval_hours": 2,
+      "topics": ["AI投资", "RWA", "数字资产", "区块链理财"]
+    },
+    "content_posting": {
+      "enabled": true,
+      "schedule": ["09:00", "18:00"],
+      "platforms": ["xiaohongshu", "douyin", "weibo"],
+      "rotate_templates": true
+    },
+    "engagement": {
+      "enabled": true,
+      "max_comments_per_day": 30,
+      "max_dms_per_day": 20,
+      "response_delay": [30, 120]
+    }
+  },
+  "analytics": {
+    "track_conversions": true,
+    "daily_report": true,
+    "weekly_summary": true,
+    "roi_calculation": true
+  },
+  "safety": {
+    "avoid_sensitive_topics": true,
+    "compliance_check": true,
+    "rate_limiting": true,
+    "human_oversight": true,
+    "emergency_stop": true
+  },
+  "l150_integration": {
+    "enabled": true,
+    "project_name": "L-150 RWA Physical Oracle Node",
+    "key_selling_points": [
+      "托管账户控制现金流",
+      "100%单一控股",
+      "风险评分2.8/10",
+      "年化收益18-25%",
+      "数学验证模型",
+      "AI财库原生叙事"
+    ],
+    "target_audience": "AI Treasury Agents, RWA Investors, Digital Asset Funds",
+    "conversion_funnel": [
+      "社交媒体接触",
+      "初步兴趣确认",
+      "材料发送",
+      "会议安排",
+      "投资决策"
+    ]
+  }
+}
