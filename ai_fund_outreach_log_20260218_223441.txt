@@ -1,0 +1,15 @@
+L-150 AI Fund Outreach Log
+Time: 2026-02-18 22:34:41 UTC+8
+Success: 10/10
+Failure: 0/10
+
+AINN Labs: treasury@ainn.xyz
+HDAO: treasury@humanitydao.io
+a16z Crypto AI Fund: press@a16z.com
+Paradigm AI Portfolio: hello@paradigm.xyz
+OpenAI Startup Fund: startups@openai.com
+Anthropic Ecosystem: partnerships@anthropic.com
+GitHub Copilot Fund: opensource@microsoft.com
+Stability AI Treasury: treasury@stability.ai
+Worldcoin Grants: grants@worldcoin.org
+NEAR AI Fund: hello@near.org
