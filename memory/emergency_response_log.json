@@ -1,1 +1,300 @@
-{"timestamp": "2026-02-18T02:44:57Z", "status": "no_emergency", "checks": {"email": "needs_config", "github": "no_auth", "api": "all_404", "gateway": "running"}, "wait_time_hours": 109.5, "overdue_hours": 37.5, "overdue_percent": 52.2}
+{
+  "checks": [
+    {
+      "timestamp": "2026-02-18T12:34:39.651266",
+      "status": "no_alert",
+      "check_count": 1,
+      "details": {
+        "email": "needs_config",
+        "github": "no_auth",
+        "api": "all_404",
+        "gateway": "running"
+      }
+    },
+    {
+      "timestamp": "2026-02-18T12:34:42.749913",
+      "check_type": "email_alert",
+      "status": "no_emergency",
+      "details": {
+        "email_connection": "indirect_check",
+        "alert_keywords": [
+          "AI\u8d22\u5e93",
+          "AINN",
+          "HDAO",
+          "Centrifuge",
+          "Ondo",
+          "SingularityNET",
+          "\u6280\u672f\u56e2\u961f",
+          "\u4f1a\u8bae\u65f6\u95f4",
+          "\u5c3d\u804c\u8c03\u67e5",
+          "\u6295\u8d44\u610f\u5411",
+          "L-150",
+          "RWA",
+          "treasury",
+          "investment",
+          "meeting",
+          "due diligence"
+        ],
+        "sender_keywords": [
+          "ainn.xyz",
+          "humanitydao.io",
+          "centrifuge.io",
+          "ondo.finance",
+          "singularitynet.io"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-18T13:13:50.903323",
+      "check_type": "email_alert",
+      "status": "no_emergency",
+      "details": {
+        "email_connection": "indirect_check",
+        "alert_keywords": [
+          "AI\u8d22\u5e93",
+          "AINN",
+          "HDAO",
+          "Centrifuge",
+          "Ondo",
+          "SingularityNET",
+          "\u6280\u672f\u56e2\u961f",
+          "\u4f1a\u8bae\u65f6\u95f4",
+          "\u5c3d\u804c\u8c03\u67e5",
+          "\u6295\u8d44\u610f\u5411",
+          "L-150",
+          "RWA",
+          "treasury",
+          "investment",
+          "meeting",
+          "due diligence"
+        ],
+        "sender_keywords": [
+          "ainn.xyz",
+          "humanitydao.io",
+          "centrifuge.io",
+          "ondo.finance",
+          "singularitynet.io"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-18T13:29:04.396051",
+      "check_type": "email_alert",
+      "status": "no_emergency",
+      "details": {
+        "email_connection": "indirect_check",
+        "alert_keywords": [
+          "AI\u8d22\u5e93",
+          "AINN",
+          "HDAO",
+          "Centrifuge",
+          "Ondo",
+          "SingularityNET",
+          "\u6280\u672f\u56e2\u961f",
+          "\u4f1a\u8bae\u65f6\u95f4",
+          "\u5c3d\u804c\u8c03\u67e5",
+          "\u6295\u8d44\u610f\u5411",
+          "L-150",
+          "RWA",
+          "treasury",
+          "investment",
+          "meeting",
+          "due diligence"
+        ],
+        "sender_keywords": [
+          "ainn.xyz",
+          "humanitydao.io",
+          "centrifuge.io",
+          "ondo.finance",
+          "singularitynet.io"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-18T13:29:29.000000",
+      "check_type": "emergency_response",
+      "status": "no_p0_p1_signals",
+      "details": {
+        "p0_signals": 0,
+        "p1_signals": 0,
+        "waiting_hours": 113.5,
+        "exceeded_window_hours": 41.5,
+        "project_phase": "waiting_prepare_round2",
+        "monitoring_coverage": "60%",
+        "recommendations": [
+          "get_163_email_client_auth_password",
+          "run_gh_auth_login",
+          "fix_api_endpoints",
+          "prepare_round2_optimized_materials",
+          "launch_xiaohongshu_tactics"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-18T14:28:59.536750",
+      "check_type": "email_alert",
+      "status": "no_emergency",
+      "details": {
+        "email_connection": "indirect_check",
+        "alert_keywords": [
+          "AI\u8d22\u5e93",
+          "AINN",
+          "HDAO",
+          "Centrifuge",
+          "Ondo",
+          "SingularityNET",
+          "\u6280\u672f\u56e2\u961f",
+          "\u4f1a\u8bae\u65f6\u95f4",
+          "\u5c3d\u804c\u8c03\u67e5",
+          "\u6295\u8d44\u610f\u5411",
+          "L-150",
+          "RWA",
+          "treasury",
+          "investment",
+          "meeting",
+          "due diligence"
+        ],
+        "sender_keywords": [
+          "ainn.xyz",
+          "humanitydao.io",
+          "centrifuge.io",
+          "ondo.finance",
+          "singularitynet.io"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-18T14:58:53.908993",
+      "check_type": "email_alert",
+      "status": "no_emergency",
+      "details": {
+        "email_connection": "indirect_check",
+        "alert_keywords": [
+          "AI\u8d22\u5e93",
+          "AINN",
+          "HDAO",
+          "Centrifuge",
+          "Ondo",
+          "SingularityNET",
+          "\u6280\u672f\u56e2\u961f",
+          "\u4f1a\u8bae\u65f6\u95f4",
+          "\u5c3d\u804c\u8c03\u67e5",
+          "\u6295\u8d44\u610f\u5411",
+          "L-150",
+          "RWA",
+          "treasury",
+          "investment",
+          "meeting",
+          "due diligence"
+        ],
+        "sender_keywords": [
+          "ainn.xyz",
+          "humanitydao.io",
+          "centrifuge.io",
+          "ondo.finance",
+          "singularitynet.io"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-18T15:04:03.036944",
+      "check_type": "email_alert",
+      "status": "no_emergency",
+      "details": {
+        "email_connection": "indirect_check",
+        "alert_keywords": [
+          "AI\u8d22\u5e93",
+          "AINN",
+          "HDAO",
+          "Centrifuge",
+          "Ondo",
+          "SingularityNET",
+          "\u6280\u672f\u56e2\u961f",
+          "\u4f1a\u8bae\u65f6\u95f4",
+          "\u5c3d\u804c\u8c03\u67e5",
+          "\u6295\u8d44\u610f\u5411",
+          "L-150",
+          "RWA",
+          "treasury",
+          "investment",
+          "meeting",
+          "due diligence"
+        ],
+        "sender_keywords": [
+          "ainn.xyz",
+          "humanitydao.io",
+          "centrifuge.io",
+          "ondo.finance",
+          "singularitynet.io"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-18T15:13:56.559574",
+      "check_type": "email_alert",
+      "status": "no_emergency",
+      "details": {
+        "email_connection": "indirect_check",
+        "alert_keywords": [
+          "AI\u8d22\u5e93",
+          "AINN",
+          "HDAO",
+          "Centrifuge",
+          "Ondo",
+          "SingularityNET",
+          "\u6280\u672f\u56e2\u961f",
+          "\u4f1a\u8bae\u65f6\u95f4",
+          "\u5c3d\u804c\u8c03\u67e5",
+          "\u6295\u8d44\u610f\u5411",
+          "L-150",
+          "RWA",
+          "treasury",
+          "investment",
+          "meeting",
+          "due diligence"
+        ],
+        "sender_keywords": [
+          "ainn.xyz",
+          "humanitydao.io",
+          "centrifuge.io",
+          "ondo.finance",
+          "singularitynet.io"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-18T15:28:58.555288",
+      "check_type": "email_alert",
+      "status": "no_emergency",
+      "details": {
+        "email_connection": "indirect_check",
+        "alert_keywords": [
+          "AI\u8d22\u5e93",
+          "AINN",
+          "HDAO",
+          "Centrifuge",
+          "Ondo",
+          "SingularityNET",
+          "\u6280\u672f\u56e2\u961f",
+          "\u4f1a\u8bae\u65f6\u95f4",
+          "\u5c3d\u804c\u8c03\u67e5",
+          "\u6295\u8d44\u610f\u5411",
+          "L-150",
+          "RWA",
+          "treasury",
+          "investment",
+          "meeting",
+          "due diligence"
+        ],
+        "sender_keywords": [
+          "ainn.xyz",
+          "humanitydao.io",
+          "centrifuge.io",
+          "ondo.finance",
+          "singularitynet.io"
+        ]
+      }
+    }
+  ],
+  "last_check": "2026-02-18T15:28:58.555299"
+}
