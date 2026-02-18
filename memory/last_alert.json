@@ -1,18 +1,7 @@
 {
-  "last_alert_time": "2026-02-18T06:23:53.240852",
+  "last_alert_time": "2026-02-18T08:14:04.311887",
   "status": "no_alert",
-  "check_count": 13,
-  "last_check": "2026-02-18T06:25:00.000000",
-  "emergency_type": null,
-  "last_response_time": "2026-02-18T06:25:00.000000",
-  "project_status": "waiting_preparing_second_round",
-  "response_window_exceeded": 33,
-  "github_external_attention": 0,
-  "monitoring_systems": {
-    "gateway_health": "healthy",
-    "github_monitoring": "healthy",
-    "deployment_monitoring": "healthy",
-    "email_monitoring": "needs_repair",
-    "emergency_response": "healthy"
-  }
+  "check_count": 22,
+  "last_check": "2026-02-18T08:14:04.311907",
+  "emergency_type": null
 }

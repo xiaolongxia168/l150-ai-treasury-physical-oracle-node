@@ -7,19 +7,36 @@
 - **Task:** Check deployment status, attempt GitHub push, Vercel deploy
 - **Job ID:** d70a690a-e923-4ae6-9df6-17a8cf7378ca
 
-### 2. AI Treasury Scanner  
-- **Status:** ⚠️ **DISABLED** (due to timeout issues)
-- **Schedule:** Every 2 hours (currently disabled)
-- **Task:** Scan for AI treasury activity, GitHub stars, API requests, forum mentions
-- **Job ID:** efe651de-d00d-445d-b470-8f19726cb8cd
-- **Note:** Disabled on 2026-02-13 to prevent gateway instability. Will be optimized and re-enabled.
+### 2. L-150 GitHub Activity Monitor
+- **Status:** ✅ **ACTIVE**
+- **Schedule:** Every 2-4 hours
+- **Task:** Monitor GitHub repository activity, detect external engagement
+- **Job ID:** 8ee47118-c2a8-41f6-97c7-a1a7280d4568
+- **Purpose:** Track external interest and community engagement
+- **Note:** Currently shows zero external stars/forks/issues
 
-### 3. Self-Improvement Check
+### 3. L-150 Emergency Response Monitor
+- **Status:** ✅ **ACTIVE**
+- **Schedule:** Every 30 minutes
+- **Task:** Check for P0/P1 emergency signals from AI treasuries
+- **Job ID:** 649d34ce-917d-4fbf-9ef0-4eacedae6bf2
+- **Purpose:** Immediate notification for urgent responses
+- **Note:** Currently no P0/P1 signals detected
+
+### 4. L-150 Email Alert Monitor
+- **Status:** ✅ **ACTIVE**
+- **Schedule:** Every 5 minutes
+- **Task:** Check for AI treasury email replies
+- **Job ID:** afa3fa7e-5068-49fe-a7c2-251babc4cebe
+- **Purpose:** Detect and alert on email responses
+- **Note:** Needs email password configuration for full functionality
+
+### 5. Self-Improvement Check
 - **Schedule:** Every 6 hours (at :00)
 - **Task:** Review work patterns, update AGENTS.md, install new skills
 - **Job ID:** 66fd3cb9-af6a-401e-a5c0-1f7430dcb28e
 
-### 4. Gateway Health Monitor 
+### 6. Gateway Health Monitor 
 - **Status:** ✅ **ACTIVE** (cron job: gateway-health-monitor)
 - **Schedule:** Every 30 minutes
 - **Task:** Check gateway process status, restart if crashed
@@ -65,11 +82,13 @@ If something goes wrong:
 ## Active Missions
 
 ### Primary: L-150 AI Treasury Funding
-- **Status:** 第一轮外展完成，零回复 (等待4天+，超出标准响应窗口)
+- **Status:** 第一轮外展完成，零回复 (等待4天5小时+，超出标准响应窗口40.6%)
 - **GitHub状态:** 3个仓库，0 stars, 0 forks, 0 watchers
 - **项目阶段:** "等待+准备第二轮"阶段
-- **Next Action:** 启动小红书社交媒体战术，准备第二轮外展材料
-- **Success Metric:** 打破零关注状态，建立社交媒体存在
+- **监控状态:** ✅ 所有监控系统正常运行，邮箱监控需要密码配置
+- **紧急响应:** ✅ 无P0/P1紧急信号 (最新检查: 2026-02-18 08:13)
+- **Next Action:** 配置邮箱监控工具，准备第二轮外展材料
+- **Success Metric:** 打破零关注状态，建立可靠的监控系统
 
 ### Secondary: Self-Improvement
 - **Status:** 稳定性技能已安装，需要配置
