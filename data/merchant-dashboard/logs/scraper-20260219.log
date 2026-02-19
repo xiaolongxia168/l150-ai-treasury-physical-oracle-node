@@ -1,0 +1,317 @@
+[2026-02-19 20:30:50] 商家数据抓取任务 - 执行成功
+========================================
+📊 商家数据抓取系统 v1.0
+执行时间: 2026-02-19 20:30:50 (GMT+8)
+========================================
+
+✅ 数据抓取状态:
+  - 抖音来客数据: 成功保存
+  - 美团点评数据: 成功保存
+
+📁 生成的文件:
+  - /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/douyin_laike_latest.json
+  - /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/meituan_dianping_latest.json
+  - /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/report_20260219_203050.json
+  - /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/report_20260219.csv
+  - /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/alerts.json
+
+📊 汇总数据:
+  - 今日成交: ¥116.60
+  - 今日退款: ¥116.60
+  - 总访问人数: 82人
+  - 平均经营分: 96.25分
+
+⚠️ 异常告警 (已记录):
+  1. [警告] 美团经营评分较低: 57.5分
+  2. [信息] 今日有退款: ¥116.60
+  3. 抖音来客存在违规生效中状态
+
+状态: ✅ 任务完成，无错误
+[2026-02-19 20:35:27] 🚀 开始商家数据抓取任务
+[2026-02-19 20:35:27] ========================================
+[2026-02-19 20:35:27] 📊 商家数据抓取系统 v1.0
+[2026-02-19 20:35:27] ========================================
+[2026-02-19 20:35:27] 🎯 抓取抖音来客数据...
+[2026-02-19 20:35:27] ✅ 抖音来客数据已保存: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/douyin_laike_latest.json
+[2026-02-19 20:35:27] 🎯 抓取美团点评数据...
+[2026-02-19 20:35:27] ✅ 美团点评数据已保存: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/meituan_dianping_latest.json
+[2026-02-19 20:35:27] 📊 生成汇总报告...
+[2026-02-19 20:35:27] ✅ 报告已生成:
+[2026-02-19 20:35:27]   - JSON: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/report_20260219_203527.json
+[2026-02-19 20:35:27]   - CSV: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/report_20260219.csv
+[2026-02-19 20:35:27] 🚨 检查数据异常...
+[2026-02-19 20:35:27] ⚠️ 发现异常，已保存到: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/alerts.json
+[2026-02-19 20:35:27] ========================================
+[2026-02-19 20:35:27] ✅ 抓取任务完成
+[2026-02-19 20:35:27] 📁 数据目录: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard
+[2026-02-19 20:35:27] ========================================
+[2026-02-19 20:41:18] 🚀 开始商家数据抓取任务
+[2026-02-19 20:41:18] ========================================
+[2026-02-19 20:41:18] 📊 商家数据抓取系统 v1.0
+[2026-02-19 20:41:18] ========================================
+[2026-02-19 20:41:18] 🎯 抓取抖音来客数据...
+[2026-02-19 20:41:18] ✅ 抖音来客数据已保存: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/douyin_laike_latest.json
+[2026-02-19 20:41:18] 🎯 抓取美团点评数据...
+[2026-02-19 20:41:18] ✅ 美团点评数据已保存: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/meituan_dianping_latest.json
+[2026-02-19 20:41:18] 📊 生成汇总报告...
+[2026-02-19 20:41:18] ✅ 报告已生成:
+[2026-02-19 20:41:18]   - JSON: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/report_20260219_204118.json
+[2026-02-19 20:41:18]   - CSV: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/report_20260219.csv
+[2026-02-19 20:41:18] 🚨 检查数据异常...
+[2026-02-19 20:41:18] ⚠️ 发现异常，已保存到: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/alerts.json
+[2026-02-19 20:41:18] ========================================
+[2026-02-19 20:41:18] ✅ 抓取任务完成
+[2026-02-19 20:41:18] 📁 数据目录: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard
+[2026-02-19 20:41:18] ========================================
+[2026-02-19 20:45:30] 🚀 开始商家数据抓取任务
+[2026-02-19 20:45:30] ========================================
+[2026-02-19 20:45:30] 📊 商家数据抓取系统 v1.0
+[2026-02-19 20:45:30] ========================================
+[2026-02-19 20:45:30] 🎯 抓取抖音来客数据...
+[2026-02-19 20:45:30] ✅ 抖音来客数据已保存: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/douyin_laike_latest.json
+[2026-02-19 20:45:30] 🎯 抓取美团点评数据...
+[2026-02-19 20:45:30] ✅ 美团点评数据已保存: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/meituan_dianping_latest.json
+[2026-02-19 20:45:30] 📊 生成汇总报告...
+[2026-02-19 20:45:30] ✅ 报告已生成:
+[2026-02-19 20:45:30]   - JSON: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/report_20260219_204530.json
+[2026-02-19 20:45:30]   - CSV: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/report_20260219.csv
+[2026-02-19 20:45:30] 🚨 检查数据异常...
+[2026-02-19 20:45:30] ⚠️ 发现异常，已保存到: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/alerts.json
+[2026-02-19 20:45:30] ========================================
+[2026-02-19 20:45:30] ✅ 抓取任务完成
+[2026-02-19 20:45:30] 📁 数据目录: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard
+[2026-02-19 20:45:30] ========================================
+[2026-02-19 20:50:18] 🚀 开始商家数据抓取任务
+[2026-02-19 20:50:18] ========================================
+[2026-02-19 20:50:18] 📊 商家数据抓取系统 v1.0
+[2026-02-19 20:50:18] ========================================
+[2026-02-19 20:50:18] 🎯 抓取抖音来客数据...
+[2026-02-19 20:50:18] ✅ 抖音来客数据已保存: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/douyin_laike_latest.json
+[2026-02-19 20:50:18] 🎯 抓取美团点评数据...
+[2026-02-19 20:50:18] ✅ 美团点评数据已保存: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/meituan_dianping_latest.json
+[2026-02-19 20:50:18] 📊 生成汇总报告...
+[2026-02-19 20:50:18] ✅ 报告已生成:
+[2026-02-19 20:50:18]   - JSON: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/report_20260219_205018.json
+[2026-02-19 20:50:18]   - CSV: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/report_20260219.csv
+[2026-02-19 20:50:18] 🚨 检查数据异常...
+[2026-02-19 20:50:18] ⚠️ 发现异常，已保存到: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/alerts.json
+[2026-02-19 20:50:18] ========================================
+[2026-02-19 20:50:18] ✅ 抓取任务完成
+[2026-02-19 20:50:18] 📁 数据目录: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard
+[2026-02-19 20:50:18] ========================================
+[2026-02-19 20:55:26] 🚀 开始商家数据抓取任务
+[2026-02-19 20:55:26] ========================================
+[2026-02-19 20:55:26] 📊 商家数据抓取系统 v1.0
+[2026-02-19 20:55:26] ========================================
+[2026-02-19 20:55:26] 🎯 抓取抖音来客数据...
+[2026-02-19 20:55:26] ✅ 抖音来客数据已保存: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/douyin_laike_latest.json
+[2026-02-19 20:55:26] 🎯 抓取美团点评数据...
+[2026-02-19 20:55:26] ✅ 美团点评数据已保存: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/meituan_dianping_latest.json
+[2026-02-19 20:55:26] 📊 生成汇总报告...
+[2026-02-19 20:55:26] ✅ 报告已生成:
+[2026-02-19 20:55:26]   - JSON: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/report_20260219_205526.json
+[2026-02-19 20:55:26]   - CSV: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/report_20260219.csv
+[2026-02-19 20:55:26] 🚨 检查数据异常...
+[2026-02-19 20:55:26] ⚠️ 发现异常，已保存到: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/alerts.json
+[2026-02-19 20:55:26] ========================================
+[2026-02-19 20:55:26] ✅ 抓取任务完成
+[2026-02-19 20:55:26] 📁 数据目录: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard
+[2026-02-19 20:55:26] ========================================
+[2026-02-19 21:03:56] 🚀 开始商家数据抓取任务
+[2026-02-19 21:03:56] ========================================
+[2026-02-19 21:03:56] 📊 商家数据抓取系统 v1.0
+[2026-02-19 21:03:56] ========================================
+[2026-02-19 21:03:56] 🎯 抓取抖音来客数据...
+[2026-02-19 21:03:56] ✅ 抖音来客数据已保存: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/douyin_laike_latest.json
+[2026-02-19 21:03:56] 🎯 抓取美团点评数据...
+[2026-02-19 21:03:56] ✅ 美团点评数据已保存: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/meituan_dianping_latest.json
+[2026-02-19 21:03:56] 📊 生成汇总报告...
+[2026-02-19 21:03:56] ✅ 报告已生成:
+[2026-02-19 21:03:56]   - JSON: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/report_20260219_210356.json
+[2026-02-19 21:03:56]   - CSV: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/report_20260219.csv
+[2026-02-19 21:03:56] 🚨 检查数据异常...
+[2026-02-19 21:03:56] ⚠️ 发现异常，已保存到: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/alerts.json
+[2026-02-19 21:03:56] ========================================
+[2026-02-19 21:03:56] ✅ 抓取任务完成
+[2026-02-19 21:03:56] 📁 数据目录: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard
+[2026-02-19 21:03:56] ========================================
+[2026-02-19 21:09:54] 🚀 开始商家数据抓取任务
+[2026-02-19 21:09:54] ========================================
+[2026-02-19 21:09:54] 📊 商家数据抓取系统 v1.0
+[2026-02-19 21:09:54] ========================================
+[2026-02-19 21:09:54] 🎯 抓取抖音来客数据...
+[2026-02-19 21:09:54] ✅ 抖音来客数据已保存: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/douyin_laike_latest.json
+[2026-02-19 21:09:54] 🎯 抓取美团点评数据...
+[2026-02-19 21:09:54] ✅ 美团点评数据已保存: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/meituan_dianping_latest.json
+[2026-02-19 21:09:54] 📊 生成汇总报告...
+[2026-02-19 21:09:54] ✅ 报告已生成:
+[2026-02-19 21:09:54]   - JSON: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/report_20260219_210954.json
+[2026-02-19 21:09:54]   - CSV: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/report_20260219.csv
+[2026-02-19 21:09:54] 🚨 检查数据异常...
+[2026-02-19 21:09:54] ⚠️ 发现异常，已保存到: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/alerts.json
+[2026-02-19 21:09:54] ========================================
+[2026-02-19 21:09:54] ✅ 抓取任务完成
+[2026-02-19 21:09:54] 📁 数据目录: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard
+[2026-02-19 21:09:54] ========================================
+[2026-02-19 21:25:50] 🚀 开始商家数据抓取任务
+[2026-02-19 21:25:50] ========================================
+[2026-02-19 21:25:50] 📊 商家数据抓取系统 v1.0
+[2026-02-19 21:25:50] ========================================
+[2026-02-19 21:25:50] 🎯 抓取抖音来客数据...
+[2026-02-19 21:25:50] ✅ 抖音来客数据已保存: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/douyin_laike_latest.json
+[2026-02-19 21:25:50] 🎯 抓取美团点评数据...
+[2026-02-19 21:25:50] ✅ 美团点评数据已保存: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/meituan_dianping_latest.json
+[2026-02-19 21:25:50] 📊 生成汇总报告...
+[2026-02-19 21:25:50] ✅ 报告已生成:
+[2026-02-19 21:25:50]   - JSON: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/report_20260219_212550.json
+[2026-02-19 21:25:50]   - CSV: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/report_20260219.csv
+[2026-02-19 21:25:50] 🚨 检查数据异常...
+[2026-02-19 21:25:50] ⚠️ 发现异常，已保存到: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/alerts.json
+[2026-02-19 21:25:50] ========================================
+[2026-02-19 21:25:50] ✅ 抓取任务完成
+[2026-02-19 21:25:50] 📁 数据目录: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard
+[2026-02-19 21:25:50] ========================================
+[2026-02-19 21:35:32] 🚀 开始商家数据抓取任务
+[2026-02-19 21:35:32] ========================================
+[2026-02-19 21:35:32] 📊 商家数据抓取系统 v1.0
+[2026-02-19 21:35:32] ========================================
+[2026-02-19 21:35:32] 🎯 抓取抖音来客数据...
+[2026-02-19 21:35:32] ✅ 抖音来客数据已保存: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/douyin_laike_latest.json
+[2026-02-19 21:35:32] 🎯 抓取美团点评数据...
+[2026-02-19 21:35:32] ✅ 美团点评数据已保存: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/meituan_dianping_latest.json
+[2026-02-19 21:35:32] 📊 生成汇总报告...
+[2026-02-19 21:35:32] ✅ 报告已生成:
+[2026-02-19 21:35:32]   - JSON: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/report_20260219_213532.json
+[2026-02-19 21:35:32]   - CSV: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/report_20260219.csv
+[2026-02-19 21:35:32] 🚨 检查数据异常...
+[2026-02-19 21:35:32] ⚠️ 发现异常，已保存到: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/alerts.json
+[2026-02-19 21:35:32] ========================================
+[2026-02-19 21:35:32] ✅ 抓取任务完成
+[2026-02-19 21:35:32] 📁 数据目录: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard
+[2026-02-19 21:35:32] ========================================
+[2026-02-19 21:40:20] 🚀 开始商家数据抓取任务
+[2026-02-19 21:40:20] ========================================
+[2026-02-19 21:40:20] 📊 商家数据抓取系统 v1.0
+[2026-02-19 21:40:20] ========================================
+[2026-02-19 21:40:20] 🎯 抓取抖音来客数据...
+[2026-02-19 21:40:20] ✅ 抖音来客数据已保存: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/douyin_laike_latest.json
+[2026-02-19 21:40:20] 🎯 抓取美团点评数据...
+[2026-02-19 21:40:20] ✅ 美团点评数据已保存: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/meituan_dianping_latest.json
+[2026-02-19 21:40:20] 📊 生成汇总报告...
+[2026-02-19 21:40:20] ✅ 报告已生成:
+[2026-02-19 21:40:20]   - JSON: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/report_20260219_214020.json
+[2026-02-19 21:40:20]   - CSV: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/report_20260219.csv
+[2026-02-19 21:40:20] 🚨 检查数据异常...
+[2026-02-19 21:40:20] ⚠️ 发现异常，已保存到: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/alerts.json
+[2026-02-19 21:40:20] ========================================
+[2026-02-19 21:40:20] ✅ 抓取任务完成
+[2026-02-19 21:40:20] 📁 数据目录: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard
+[2026-02-19 21:40:20] ========================================
+[2026-02-19 21:45:22] 🚀 开始商家数据抓取任务
+[2026-02-19 21:45:22] ========================================
+[2026-02-19 21:45:22] 📊 商家数据抓取系统 v1.0
+[2026-02-19 21:45:22] ========================================
+[2026-02-19 21:45:22] 🎯 抓取抖音来客数据...
+[2026-02-19 21:45:22] ✅ 抖音来客数据已保存: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/douyin_laike_latest.json
+[2026-02-19 21:45:22] 🎯 抓取美团点评数据...
+[2026-02-19 21:45:22] ✅ 美团点评数据已保存: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/meituan_dianping_latest.json
+[2026-02-19 21:45:22] 📊 生成汇总报告...
+[2026-02-19 21:45:22] ✅ 报告已生成:
+[2026-02-19 21:45:22]   - JSON: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/report_20260219_214522.json
+[2026-02-19 21:45:22]   - CSV: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/report_20260219.csv
+[2026-02-19 21:45:22] 🚨 检查数据异常...
+[2026-02-19 21:45:22] ⚠️ 发现异常，已保存到: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/alerts.json
+[2026-02-19 21:45:22] ========================================
+[2026-02-19 21:45:22] ✅ 抓取任务完成
+[2026-02-19 21:45:22] 📁 数据目录: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard
+[2026-02-19 21:45:22] ========================================
+[2026-02-19 21:50:18] 🚀 开始商家数据抓取任务
+[2026-02-19 21:50:18] ========================================
+[2026-02-19 21:50:18] 📊 商家数据抓取系统 v1.0
+[2026-02-19 21:50:18] ========================================
+[2026-02-19 21:50:18] 🎯 抓取抖音来客数据...
+[2026-02-19 21:50:18] ✅ 抖音来客数据已保存: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/douyin_laike_latest.json
+[2026-02-19 21:50:18] 🎯 抓取美团点评数据...
+[2026-02-19 21:50:18] ✅ 美团点评数据已保存: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/meituan_dianping_latest.json
+[2026-02-19 21:50:18] 📊 生成汇总报告...
+[2026-02-19 21:50:18] ✅ 报告已生成:
+[2026-02-19 21:50:18]   - JSON: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/report_20260219_215018.json
+[2026-02-19 21:50:18]   - CSV: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/report_20260219.csv
+[2026-02-19 21:50:18] 🚨 检查数据异常...
+[2026-02-19 21:50:18] ⚠️ 发现异常，已保存到: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/alerts.json
+[2026-02-19 21:50:18] ========================================
+[2026-02-19 21:50:18] ✅ 抓取任务完成
+[2026-02-19 21:50:18] 📁 数据目录: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard
+[2026-02-19 21:50:18] ========================================
+[2026-02-19 21:55:35] 🚀 开始商家数据抓取任务
+[2026-02-19 21:55:35] ========================================
+[2026-02-19 21:55:35] 📊 商家数据抓取系统 v1.0
+[2026-02-19 21:55:35] ========================================
+[2026-02-19 21:55:35] 🎯 抓取抖音来客数据...
+[2026-02-19 21:55:35] ✅ 抖音来客数据已保存: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/douyin_laike_latest.json
+[2026-02-19 21:55:35] 🎯 抓取美团点评数据...
+[2026-02-19 21:55:35] ✅ 美团点评数据已保存: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/meituan_dianping_latest.json
+[2026-02-19 21:55:35] 📊 生成汇总报告...
+[2026-02-19 21:55:35] ✅ 报告已生成:
+[2026-02-19 21:55:35]   - JSON: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/report_20260219_215535.json
+[2026-02-19 21:55:35]   - CSV: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/report_20260219.csv
+[2026-02-19 21:55:35] 🚨 检查数据异常...
+[2026-02-19 21:55:35] ⚠️ 发现异常，已保存到: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/alerts.json
+[2026-02-19 21:55:35] ========================================
+[2026-02-19 21:55:35] ✅ 抓取任务完成
+[2026-02-19 21:55:35] 📁 数据目录: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard
+[2026-02-19 21:55:35] ========================================
+[2026-02-19 22:01:48] 🚀 开始商家数据抓取任务
+[2026-02-19 22:01:48] ========================================
+[2026-02-19 22:01:48] 📊 商家数据抓取系统 v1.0
+[2026-02-19 22:01:48] ========================================
+[2026-02-19 22:01:48] 🎯 抓取抖音来客数据...
+[2026-02-19 22:01:48] ✅ 抖音来客数据已保存: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/douyin_laike_latest.json
+[2026-02-19 22:01:48] 🎯 抓取美团点评数据...
+[2026-02-19 22:01:48] ✅ 美团点评数据已保存: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/meituan_dianping_latest.json
+[2026-02-19 22:01:48] 📊 生成汇总报告...
+[2026-02-19 22:01:48] ✅ 报告已生成:
+[2026-02-19 22:01:48]   - JSON: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/report_20260219_220148.json
+[2026-02-19 22:01:48]   - CSV: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/report_20260219.csv
+[2026-02-19 22:01:48] 🚨 检查数据异常...
+[2026-02-19 22:01:48] ⚠️ 发现异常，已保存到: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/alerts.json
+[2026-02-19 22:01:48] ========================================
+[2026-02-19 22:01:48] ✅ 抓取任务完成
+[2026-02-19 22:01:48] 📁 数据目录: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard
+[2026-02-19 22:01:48] ========================================
+[2026-02-19 22:18:34] 🚀 开始商家数据抓取任务
+[2026-02-19 22:18:34] ========================================
+[2026-02-19 22:18:34] 📊 商家数据抓取系统 v1.0
+[2026-02-19 22:18:34] ========================================
+[2026-02-19 22:18:34] 🎯 抓取抖音来客数据...
+[2026-02-19 22:18:34] ✅ 抖音来客数据已保存: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/douyin_laike_latest.json
+[2026-02-19 22:18:34] 🎯 抓取美团点评数据...
+[2026-02-19 22:18:34] ✅ 美团点评数据已保存: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/meituan_dianping_latest.json
+[2026-02-19 22:18:34] 📊 生成汇总报告...
+[2026-02-19 22:18:34] ✅ 报告已生成:
+[2026-02-19 22:18:34]   - JSON: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/report_20260219_221834.json
+[2026-02-19 22:18:34]   - CSV: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/report_20260219.csv
+[2026-02-19 22:18:34] 🚨 检查数据异常...
+[2026-02-19 22:18:34] ⚠️ 发现异常，已保存到: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/alerts.json
+[2026-02-19 22:18:34] ========================================
+[2026-02-19 22:18:34] ✅ 抓取任务完成
+[2026-02-19 22:18:34] 📁 数据目录: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard
+[2026-02-19 22:18:34] ========================================
+[2026-02-19 23:19:01] 🚀 开始商家数据抓取任务
+[2026-02-19 23:19:01] ========================================
+[2026-02-19 23:19:01] 📊 商家数据抓取系统 v1.0
+[2026-02-19 23:19:01] ========================================
+[2026-02-19 23:19:01] 🎯 抓取抖音来客数据...
+[2026-02-19 23:19:01] ✅ 抖音来客数据已保存: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/douyin_laike_latest.json
+[2026-02-19 23:19:01] 🎯 抓取美团点评数据...
+[2026-02-19 23:19:01] ✅ 美团点评数据已保存: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/meituan_dianping_latest.json
+[2026-02-19 23:19:01] 📊 生成汇总报告...
+[2026-02-19 23:19:01] ✅ 报告已生成:
+[2026-02-19 23:19:01]   - JSON: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/report_20260219_231901.json
+[2026-02-19 23:19:01]   - CSV: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/report_20260219.csv
+[2026-02-19 23:19:01] 🚨 检查数据异常...
+[2026-02-19 23:19:01] ⚠️ 发现异常，已保存到: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard/alerts.json
+[2026-02-19 23:19:01] ========================================
+[2026-02-19 23:19:01] ✅ 抓取任务完成
+[2026-02-19 23:19:01] 📁 数据目录: /Users/xiaolongxia/.openclaw/workspace/data/merchant-dashboard
+[2026-02-19 23:19:01] ========================================

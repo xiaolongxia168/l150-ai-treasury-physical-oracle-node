@@ -1,0 +1,31 @@
+{
+  "name": "merchant-dashboard-scraper",
+  "version": "2.0.0",
+  "description": "抖音来客 + 美团开店宝 全自动化数据抓取与智能运营分析系统",
+  "main": "scraper.js",
+  "scripts": {
+    "scrape": "node scraper.js",
+    "scrape:all": "node scraper.js all",
+    "scrape:douyin": "node scraper.js douyin",
+    "scrape:meituan": "node scraper.js meituan",
+    "deep": "node deep-scraper.js",
+    "analyze": "node smart-analyzer.js",
+    "full": "bash run-full.sh",
+    "dashboard": "node dashboard-server.js",
+    "install": "bash install.sh",
+    "test": "node test-connection.js"
+  },
+  "dependencies": {
+    "playwright": "^1.40.0"
+  },
+  "keywords": [
+    "抖音来客",
+    "美团开店宝",
+    "商家数据",
+    "运营分析",
+    "数据抓取",
+    "智能诊断"
+  ],
+  "author": "OpenClaw Agent",
+  "license": "MIT"
+}

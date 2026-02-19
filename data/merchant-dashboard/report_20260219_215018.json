@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-02-19T13:50:18Z",
+  "report_type": "realtime",
+  "platforms": {
+    "douyin_laike": {
+  "platform": "douyin_laike",
+  "shop_name": "有点方恐怖密室",
+  "scraped_at": "2026-02-19T13:50:18Z",
+  "data": {
+    "deal_amount": 116.60,
+    "deal_count": 1,
+    "verify_amount": 0,
+    "refund_amount": 116.60,
+    "visit_count": 22,
+    "business_score": 135,
+    "account_balance": 1099.06,
+    "ad_spend": 0,
+    "product_count": 9,
+    "douyin_count": 45,
+    "employee_count": 8,
+    "violation_status": "违规生效中",
+    "deposit_status": "正常",
+    "message_count": 23,
+    "consultation_count": 2
+  },
+  "status": "active"
+},
+    "meituan_dianping": {
+  "platform": "meituan_dianping",
+  "shop_name": "有點方真人恐怖密室(解放西路店)",
+  "scraped_at": "2026-02-19T13:50:18Z",
+  "data": {
+    "visit_count": 60,
+    "order_amount": 0,
+    "verify_amount": 0,
+    "business_score": 57.5,
+    "new_comments": 0,
+    "new_bad_comments": 0,
+    "notice_count": 76,
+    "message_count": 1,
+    "score_change": "持平",
+    "data_update_time": "2026-02-19 18:38"
+  },
+  "status": "active"
+}
+  },
+  "summary": {
+    "total_deal_amount": 116.60,
+    "total_refund_amount": 116.60,
+    "total_visit_count": 82,
+    "avg_business_score": 96.25,
+    "total_new_comments": 0,
+    "total_new_bad_comments": 0,
+    "alerts": [
+      "抖音来客有退款: ¥116.60",
+      "美团点评经营评分较低: 57.5分",
+      "抖音来客存在违规生效中状态"
+    ]
+  }
+}

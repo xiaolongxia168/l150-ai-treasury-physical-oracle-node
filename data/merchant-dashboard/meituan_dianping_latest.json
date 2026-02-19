@@ -1,0 +1,18 @@
+{
+  "platform": "meituan_dianping",
+  "shop_name": "有點方真人恐怖密室(解放西路店)",
+  "scraped_at": "2026-02-19T15:19:01Z",
+  "data": {
+    "visit_count": 60,
+    "order_amount": 0,
+    "verify_amount": 0,
+    "business_score": 57.5,
+    "new_comments": 0,
+    "new_bad_comments": 0,
+    "notice_count": 76,
+    "message_count": 1,
+    "score_change": "持平",
+    "data_update_time": "2026-02-19 18:38"
+  },
+  "status": "active"
+}

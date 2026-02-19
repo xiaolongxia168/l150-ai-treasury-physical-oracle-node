@@ -1,0 +1,114 @@
+{
+  "platforms": {
+    "douyin_laike": {
+      "enabled": true,
+      "name": "抖音来客",
+      "login_url": "https://laike.douyin.com/",
+      "username": "",
+      "password": "",
+      "cookie_file": "cookies/douyin_laike.json",
+      "data_endpoints": {
+        "dashboard": "/dashboard",
+        "orders": "/order/list",
+        "products": "/product/list",
+        "customers": "/customer/list",
+        "finance": "/finance/overview",
+        "marketing": "/marketing/overview",
+        "reviews": "/review/list"
+      }
+    },
+    "meituan_kaidian": {
+      "enabled": true,
+      "name": "美团开店宝",
+      "login_url": "https://e.dianping.com/",
+      "username": "",
+      "password": "",
+      "cookie_file": "cookies/meituan_kaidian.json",
+      "data_endpoints": {
+        "dashboard": "/home",
+        "orders": "/order",
+        "products": "/goods",
+        "finance": "/finance",
+        "marketing": "/marketing"
+      }
+    }
+  },
+  "scraping": {
+    "full_scan_interval": "daily",
+    "full_scan_time": "02:00",
+    "incremental_interval": 3600,
+    "data_types": [
+      "orders",
+      "products",
+      "customers",
+      "finance",
+      "marketing",
+      "reviews",
+      "logistics"
+    ],
+    "headless": true,
+    "timeout": 30000,
+    "max_pages": 100,
+    "retry_times": 3
+  },
+  "ai_analysis": {
+    "enabled": true,
+    "model": "deepseek/deepseek-chat",
+    "auto_insights": true,
+    "learning_mode": true,
+    "analysis_types": [
+      "trend_analysis",
+      "customer_insights",
+      "problem_diagnosis",
+      "optimization_suggestions"
+    ],
+    "report_schedule": {
+      "daily": "08:00",
+      "weekly": "Monday 09:00",
+      "monthly": "1st 10:00"
+    }
+  },
+  "notifications": {
+    "feishu_webhook": "",
+    "email": "",
+    "wechat_webhook": "",
+    "alert_threshold": {
+      "low_stock": 10,
+      "bad_review_score": 3.5,
+      "refund_rate": 0.05,
+      "delivery_delay_hours": 24
+    },
+    "alert_types": [
+      "low_stock",
+      "bad_review",
+      "high_refund",
+      "delivery_delay",
+      "abnormal_order"
+    ]
+  },
+  "data_storage": {
+    "raw_data_dir": "data/raw",
+    "processed_data_dir": "data/processed",
+    "analysis_dir": "data/analysis",
+    "reports_dir": "data/reports",
+    "retention_days": 90
+  },
+  "advanced": {
+    "competitor_monitoring": {
+      "enabled": false,
+      "competitors": []
+    },
+    "auto_reply": {
+      "enabled": false,
+      "reply_delay_seconds": [30, 120]
+    },
+    "inventory_prediction": {
+      "enabled": true,
+      "prediction_days": 7
+    },
+    "pricing_optimization": {
+      "enabled": true,
+      "check_interval_hours": 24
+    }
+  }
+}

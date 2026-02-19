@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/xiaolongxia/.openclaw/workspace/skills/merchant-dashboard-ai/scripts/smart_crawler.py", line 19, in <module>
+    logging.FileHandler('../logs/smart_crawler.log'),
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1146, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1175, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding,
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/xiaolongxia/.openclaw/workspace/skills/logs/smart_crawler.log'

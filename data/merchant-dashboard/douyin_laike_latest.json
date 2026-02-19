@@ -1,0 +1,23 @@
+{
+  "platform": "douyin_laike",
+  "shop_name": "有点方恐怖密室",
+  "scraped_at": "2026-02-19T15:19:01Z",
+  "data": {
+    "deal_amount": 116.60,
+    "deal_count": 1,
+    "verify_amount": 0,
+    "refund_amount": 116.60,
+    "visit_count": 22,
+    "business_score": 135,
+    "account_balance": 1099.06,
+    "ad_spend": 0,
+    "product_count": 9,
+    "douyin_count": 45,
+    "employee_count": 8,
+    "violation_status": "违规生效中",
+    "deposit_status": "正常",
+    "message_count": 23,
+    "consultation_count": 2
+  },
+  "status": "active"
+}

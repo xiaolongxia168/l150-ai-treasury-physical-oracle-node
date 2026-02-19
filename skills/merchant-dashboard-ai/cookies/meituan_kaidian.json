@@ -1,0 +1,402 @@
+[
+  {
+    "name": "_hc.v",
+    "value": "",
+    "domain": ".dianping.com",
+    "path": "/",
+    "expires": 1803033474.0,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_lxsdk",
+    "value": "",
+    "domain": ".dianping.com",
+    "path": "/",
+    "expires": 1806057471.2996864,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_lxsdk_cuid",
+    "value": "",
+    "domain": ".dianping.com",
+    "path": "/",
+    "expires": 1806057471.2989044,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "ecom_kdb_to_jyb_gray_flag",
+    "value": "",
+    "domain": ".dianping.com",
+    "path": "/",
+    "expires": 1806057470.708929,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "edper",
+    "value": "",
+    "domain": ".dianping.com",
+    "path": "/",
+    "expires": 1806057470.5443058,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "WEBDFPID",
+    "value": "",
+    "domain": ".dianping.com",
+    "path": "/",
+    "expires": 1806066382.2157974,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_lxsdk_s",
+    "value": "",
+    "domain": ".dianping.com",
+    "path": "/",
+    "expires": 1771508200.0,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "logan_session_token",
+    "value": "",
+    "domain": "e.dianping.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "merchantBookShopID",
+    "value": "",
+    "domain": "e.dianping.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "merchantCategoryID",
+    "value": "",
+    "domain": "e.dianping.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "mpmerchant_portal_shopid",
+    "value": "",
+    "domain": ".dianping.com",
+    "path": "/",
+    "expires": 1779282383.5974102,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "AWPTALOS11794",
+    "value": "",
+    "domain": "ecom.meituan.com",
+    "path": "/",
+    "expires": 1803033441.968521,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "_lx_utm",
+    "value": "",
+    "domain": ".meituan.com",
+    "path": "/",
+    "expires": 1772102244.0,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_lxsdk",
+    "value": "",
+    "domain": ".meituan.com",
+    "path": "/",
+    "expires": 1806057444.0529976,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_lxsdk_cuid",
+    "value": "",
+    "domain": ".meituan.com",
+    "path": "/",
+    "expires": 1806057444.0525055,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "utm_source_rg",
+    "value": "",
+    "domain": ".meituan.com",
+    "path": "/",
+    "expires": 1806057447.0,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "AWPTALOS2180",
+    "value": "",
+    "domain": "ecom.meituan.com",
+    "path": "/",
+    "expires": 1803033468.3378506,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "bizType",
+    "value": "",
+    "domain": "ecom.meituan.com",
+    "path": "/",
+    "expires": 1806057469.5239677,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "com.sankuai.meishi.fe.bizsettle-bsid",
+    "value": "",
+    "domain": "ecom.meituan.com",
+    "path": "/",
+    "expires": 1806057469.5241299,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "com.sankuai.meishi.fe.bizvisual-bsid",
+    "value": "",
+    "domain": "ecom.meituan.com",
+    "path": "/",
+    "expires": 1806057469.5241737,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "com.sankuai.meishi.fe.kdb-bsid",
+    "value": "",
+    "domain": ".meituan.com",
+    "path": "/",
+    "expires": 1806057469.5240746,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "e_b_id_352126",
+    "value": "",
+    "domain": ".meituan.com",
+    "path": "/",
+    "expires": 1777199867.0,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "eplt",
+    "value": "",
+    "domain": "epassport.meituan.com",
+    "path": "/",
+    "expires": 1777199867.90209,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "eprt",
+    "value": "",
+    "domain": "epassport.meituan.com",
+    "path": "/",
+    "expires": 1777199867.9021873,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "com.sankuai.nibexperience.rcf.websdk_strategy",
+    "value": "",
+    "domain": "rcf.meituan.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "BSID",
+    "value": "",
+    "domain": "kd.meituan.com",
+    "path": "/",
+    "expires": 1774098593.1665707,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "JSESSIONID",
+    "value": "",
+    "domain": "e.waimai.meituan.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_lxsdk_s",
+    "value": "",
+    "domain": ".meituan.com",
+    "path": "/",
+    "expires": 1771508387.0,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "com.sankuai.jsprotect.h5guard_strategy",
+    "value": "",
+    "domain": "e.waimai.meituan.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "device_uuid",
+    "value": "",
+    "domain": "e.waimai.meituan.com",
+    "path": "/",
+    "expires": 1806066577.2845306,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "logan_session_token",
+    "value": "",
+    "domain": "e.waimai.meituan.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "shopCategory",
+    "value": "",
+    "domain": "e.waimai.meituan.com",
+    "path": "/",
+    "expires": 1771513778.0219593,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "token",
+    "value": "",
+    "domain": "kd.meituan.com",
+    "path": "/",
+    "expires": 1803042593.0,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "user_id",
+    "value": "",
+    "domain": "kd.meituan.com",
+    "path": "/",
+    "expires": 1774098593.1666965,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "username",
+    "value": "",
+    "domain": "kd.meituan.com",
+    "path": "/",
+    "expires": 1774098593.1667175,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "uuid_update",
+    "value": "",
+    "domain": "e.waimai.meituan.com",
+    "path": "/",
+    "expires": 1806066577.2845783,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "wpush_server_url",
+    "value": "",
+    "domain": "e.waimai.meituan.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "WEBDFPID",
+    "value": "",
+    "domain": ".meituan.com",
+    "path": "/",
+    "expires": 1806066594.1537895,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "com.sankuai.wmsettle.web.pc_strategy",
+    "value": "",
+    "domain": "kd.meituan.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "logan_session_token",
+    "value": "",
+    "domain": "kd.meituan.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  }
+]

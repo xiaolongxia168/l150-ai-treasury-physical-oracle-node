@@ -1,0 +1,325 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+智能商家后台爬虫 - 使用 OpenClaw 浏览器配置
+直接使用 openclaw 的浏览器环境，包括登录状态和代理
+"""
+
+import asyncio
+import json
+import logging
+from datetime import datetime
+from pathlib import Path
+from playwright.async_api import async_playwright
+
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s [%(levelname)s] %(message)s',
+    handlers=[
+        logging.FileHandler('logs/smart_crawler.log'),
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger(__name__)
+
+
+class SmartCrawler:
+    """智能爬虫 - 使用 OpenClaw 浏览器"""
+
+    def __init__(self, platform_name, start_url):
+        self.platform_name = platform_name
+        self.start_url = start_url
+        self.all_data = []
+        self.visited_urls = set()
+
+        # OpenClaw 浏览器配置
+        self.user_data_dir = '/Users/xiaolongxia/.openclaw/browser/openclaw/user-data'
+
+        # 代理配置（从 openclaw 配置）
+        self.proxy = {
+            'server': 'http://127.0.0.1:7897'
+        }
+
+    async def crawl(self):
+        """开始爬取"""
+        logger.info("=" * 60)
+        logger.info(f"智能爬虫启动: {self.platform_name}")
+        logger.info(f"起始 URL: {self.start_url}")
+        logger.info("=" * 60)
+
+        async with async_playwright() as p:
+            # 使用 OpenClaw 浏览器配置
+            context = await p.chromium.launch_persistent_context(
+                self.user_data_dir,
+                headless=False,  # 先用非无头模式测试
+                proxy=self.proxy,
+                viewport={'width': 1920, 'height': 1080},
+                user_agent='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+            )
+
+            page = context.pages[0] if context.pages else await context.new_page()
+
+            try:
+                # 访问起始页
+                logger.info(f"正在访问: {self.start_url}")
+                await page.goto(self.start_url, timeout=60000, wait_until='networkidle')
+                await page.wait_for_timeout(5000)
+
+                # 检查登录状态
+                title = await page.title()
+                logger.info(f"页面标题: {title}")
+
+                # 截图
+                screenshot_path = f'logs/homepage_{self.platform_name}_{datetime.now().strftime("%H%M%S")}.png'
+                Path(screenshot_path).parent.mkdir(parents=True, exist_ok=True)
+                await page.screenshot(path=screenshot_path, full_page=True)
+                logger.info(f"✓ 截图保存: {screenshot_path}")
+
+                # 发现菜单
+                logger.info("\n正在发现菜单结构...")
+                menu_links = await self.discover_menu(page)
+                logger.info(f"✓ 发现 {len(menu_links)} 个菜单入口")
+
+                # 打印菜单
+                for i, link in enumerate(menu_links, 1):
+                    logger.info(f"  {i}. {link['text']} -> {link['href']}")
+
+                # 逐个抓取菜单页面
+                for i, link in enumerate(menu_links, 1):
+                    logger.info(f"\n[{i}/{len(menu_links)}] 抓取: {link['text']}")
+
+                    try:
+                        # 点击菜单
+                        await page.goto(link['full_url'], timeout=60000)
+                        await page.wait_for_timeout(3000)
+
+                        # 提取数据
+                        page_data = await self.extract_data(page)
+                        page_data['menu_name'] = link['text']
+                        page_data['url'] = link['full_url']
+                        self.all_data.append(page_data)
+
+                        logger.info(f"  ✓ 提取: {len(page_data.get('tables', []))} 表格, "
+                                  f"{len(page_data.get('lists', []))} 列表")
+
+                        # 处理分页
+                        page_count = await self.handle_pagination(page, link['text'])
+                        if page_count > 1:
+                            logger.info(f"  ✓ 已抓取 {page_count} 页数据")
+
+                    except Exception as e:
+                        logger.error(f"  ✗ 抓取失败: {e}")
+
+                # 保存数据
+                self.save_data()
+
+                logger.info("\n" + "=" * 60)
+                logger.info(f"爬取完成！")
+                logger.info(f"总计抓取: {len(self.all_data)} 个页面")
+                logger.info("=" * 60)
+
+            except Exception as e:
+                logger.error(f"爬取失败: {e}", exc_info=True)
+            finally:
+                await context.close()
+
+    async def discover_menu(self, page):
+        """发现菜单"""
+        menu_selectors = [
+            'nav a',
+            '.sidebar a',
+            '.menu a',
+            '[class*="nav"] a',
+            '[class*="menu"] a',
+            'aside a',
+        ]
+
+        menu_links = []
+        current_url = page.url
+
+        for selector in menu_selectors:
+            try:
+                links = await page.query_selector_all(selector)
+                for link in links:
+                    try:
+                        href = await link.get_attribute('href')
+                        text = (await link.inner_text()).strip()
+
+                        if href and text and len(text) < 50:
+                            # 构建完整 URL
+                            if href.startswith('http'):
+                                full_url = href
+                            elif href.startswith('/'):
+                                from urllib.parse import urljoin
+                                full_url = urljoin(current_url, href)
+                            else:
+                                continue
+
+                            # 去重
+                            if not any(m['full_url'] == full_url for m in menu_links):
+                                menu_links.append({
+                                    'text': text,
+                                    'href': href,
+                                    'full_url': full_url
+                                })
+                    except:
+                        continue
+            except:
+                continue
+
+        return menu_links[:20]  # 限制前 20 个菜单
+
+    async def extract_data(self, page):
+        """提取页面数据"""
+        data = {
+            'title': await page.title(),
+            'timestamp': datetime.now().isoformat(),
+            'tables': [],
+            'lists': [],
+            'stats': []
+        }
+
+        # 提取表格
+        tables = await page.query_selector_all('table')
+        for table in tables[:5]:  # 限制每页最多 5 个表格
+            try:
+                table_data = await self.extract_table(table)
+                if table_data and table_data['rows']:
+                    data['tables'].append(table_data)
+            except:
+                pass
+
+        # 提取统计数字
+        stat_selectors = ['.stat', '.metric', '.count', '.number', '.card-data']
+        for selector in stat_selectors:
+            try:
+                elements = await page.query_selector_all(selector)
+                for elem in elements[:10]:
+                    text = (await elem.inner_text()).strip()
+                    if text and len(text) < 100:
+                        data['stats'].append(text)
+            except:
+                pass
+
+        return data
+
+    async def extract_table(self, table):
+        """提取表格"""
+        try:
+            headers = []
+            header_cells = await table.query_selector_all('thead th, thead td')
+            for cell in header_cells:
+                headers.append((await cell.inner_text()).strip())
+
+            rows = []
+            body_rows = await table.query_selector_all('tbody tr')
+            for row in body_rows[:50]:  # 每个表格最多 50 行
+                cells = await row.query_selector_all('td, th')
+                row_data = []
+                for cell in cells:
+                    row_data.append((await cell.inner_text()).strip())
+                if row_data:
+                    rows.append(row_data)
+
+            return {'headers': headers, 'rows': rows}
+        except:
+            return None
+
+    async def handle_pagination(self, page, page_name):
+        """处理分页"""
+        page_count = 1
+        max_pages = 10  # 最多翻 10 页
+
+        next_selectors = [
+            'button:has-text("下一页")',
+            'a:has-text("下一页")',
+            '.ant-pagination-next',
+            '[class*="next"]:not([disabled])'
+        ]
+
+        for _ in range(max_pages):
+            next_button = None
+
+            for selector in next_selectors:
+                try:
+                    next_button = await page.query_selector(selector)
+                    if next_button:
+                        is_disabled = await next_button.get_attribute('disabled')
+                        if not is_disabled:
+                            break
+                        next_button = None
+                except:
+                    continue
+
+            if not next_button:
+                break
+
+            try:
+                await next_button.click()
+                await page.wait_for_timeout(2000)
+
+                # 提取当前页数据
+                page_data = await self.extract_data(page)
+                page_data['menu_name'] = f"{page_name} (第{page_count + 1}页)"
+                page_data['pagination'] = page_count + 1
+                self.all_data.append(page_data)
+
+                page_count += 1
+                logger.info(f"    ✓ 第 {page_count} 页")
+
+            except:
+                break
+
+        return page_count
+
+    def save_data(self):
+        """保存数据"""
+        if not self.all_data:
+            return
+
+        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+        output_file = f'../data/{self.platform_name}_{timestamp}.json'
+
+        Path(output_file).parent.mkdir(parents=True, exist_ok=True)
+
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump(self.all_data, f, indent=2, ensure_ascii=False)
+
+        file_size = Path(output_file).stat().st_size / 1024
+        logger.info(f"\n✓ 数据已保存: {output_file}")
+        logger.info(f"✓ 文件大小: {file_size:.2f} KB")
+
+
+async def main():
+    """主函数"""
+    import sys
+
+    if len(sys.argv) > 1:
+        platform = sys.argv[1]
+    else:
+        print("请选择平台：")
+        print("1. 抖音来客")
+        print("2. 美团开店宝")
+        choice = input("输入选择 (1/2): ").strip()
+
+        if choice == '1':
+            platform = 'douyin'
+        elif choice == '2':
+            platform = 'meituan'
+        else:
+            print("无效选择")
+            return
+
+    if platform == 'douyin':
+        crawler = SmartCrawler('douyin_laike', 'https://laike.douyin.com/')
+    elif platform == 'meituan':
+        crawler = SmartCrawler('meituan_kaidian', 'https://e.dianping.com/')
+    else:
+        print(f"未知平台: {platform}")
+        return
+
+    await crawler.crawl()
+
+
+if __name__ == '__main__':
+    asyncio.run(main())

@@ -1,0 +1,24 @@
+{
+  "name": "merchant-dashboard-ai",
+  "displayName": "商家后台智能助手",
+  "description": "自动抓取抖音来客、美团开店宝全量数据，AI智能分析优化建议",
+  "version": "1.0.0",
+  "author": "OpenClaw AI",
+  "tags": ["automation", "e-commerce", "data-scraping", "ai-analysis", "douyin", "meituan"],
+  "openclaw": {
+    "emoji": "🏪",
+    "category": "business-automation",
+    "requires": {
+      "bins": ["python3"],
+      "packages": ["playwright", "pandas", "schedule"]
+    }
+  },
+  "capabilities": [
+    "智能全量数据抓取",
+    "自动菜单发现",
+    "递归页面导航",
+    "自动分页处理",
+    "AI数据分析",
+    "实时监控预警"
+  ]
+}

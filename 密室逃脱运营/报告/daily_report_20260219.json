@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-02-19T21:00:43.578066",
+  "douyin_summary": {
+    "status": "无数据",
+    "insights": []
+  },
+  "meituan_summary": {
+    "status": "无数据",
+    "insights": []
+  },
+  "competitor_summary": {
+    "status": "无数据",
+    "competitor_count": 0
+  },
+  "recommendations": [
+    "⚠️ 抖音数据缺失，请检查数据抓取",
+    "⚠️ 美团数据缺失，请检查数据抓取",
+    "⚠️ 竞品数据缺失，请配置竞品监控"
+  ]
+}
