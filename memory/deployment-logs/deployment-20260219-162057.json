@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-02-19T16:20:57.488033",
+  "main_repo": {
+    "exists": true,
+    "has_git": true,
+    "has_changes": false,
+    "has_remote": true
+  },
+  "api_repo": {
+    "exists": true,
+    "has_git": true,
+    "has_changes": false,
+    "has_remote": true
+  },
+  "bait_repo": {
+    "exists": false,
+    "has_git": false
+  },
+  "api_endpoints": {
+    "GitHub Pages": {
+      "status": "\u274c",
+      "code": 404
+    },
+    "Vercel": {
+      "status": "\u274c",
+      "code": 404
+    }
+  },
+  "health_score": 45,
+  "requests_installed": true
+}
