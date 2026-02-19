@@ -1,0 +1,38 @@
+{
+  "login_url": "https://e.waimai.meituan.com/",
+  "data_pages": [
+    "/data/flow",
+    "/data/trade",
+    "/data/evaluate",
+    "/data/compete"
+  ],
+  "extract_fields": {
+    "flow_data": [
+      "date",
+      "exposure",
+      "visit",
+      "click_rate",
+      "conversion"
+    ],
+    "trade_data": [
+      "date",
+      "orders",
+      "revenue",
+      "avg_price",
+      "refund_rate"
+    ],
+    "evaluate_data": [
+      "date",
+      "rating",
+      "positive",
+      "negative",
+      "keywords"
+    ],
+    "compete_data": [
+      "date",
+      "rank",
+      "flow_source",
+      "competitor_activity"
+    ]
+  }
+}

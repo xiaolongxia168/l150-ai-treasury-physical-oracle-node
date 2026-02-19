@@ -1,0 +1,167 @@
+{
+  "platform": {
+    "name": "ClawWork AI数字员工管理平台",
+    "version": "1.0.0",
+    "created": "2026-02-19T17:45:00+08:00",
+    "status": "planning"
+  },
+  
+  "teams": {
+    "financing": {
+      "name": "融资团队",
+      "mission": "负责国内外融资，对接投资机构，完成融资目标",
+      "target_size": 5,
+      "current_size": 0,
+      "employees": []
+    },
+    "operations": {
+      "name": "运营团队", 
+      "mission": "负责密室运营，保证老店现金流，提升客户体验",
+      "target_size": 5,
+      "current_size": 0,
+      "employees": []
+    }
+  },
+  
+  "employee_templates": {
+    "financing_director": {
+      "role": "融资总监",
+      "skills_required": [
+        "business-model-canvas",
+        "ceo-advisor", 
+        "financial-calculator",
+        "github",
+        "himalaya"
+      ],
+      "responsibilities": [
+        "制定整体融资策略",
+        "管理融资时间线",
+        "对接主要投资机构",
+        "协调融资团队工作"
+      ],
+      "performance_metrics": [
+        "融资目标完成率",
+        "投资人会议数量",
+        "融资材料质量",
+        "团队协作效率"
+      ]
+    },
+    
+    "bp_expert": {
+      "role": "BP专家",
+      "skills_required": [
+        "business-model-canvas",
+        "financial-calculator",
+        "pdf-tools",
+        "summarize"
+      ],
+      "responsibilities": [
+        "生成和优化商业计划书",
+        "制作融资演示材料",
+        "财务数据分析和预测",
+        "投资故事包装"
+      ],
+      "performance_metrics": [
+        "BP完成速度",
+        "投资人反馈评分",
+        "数据准确性",
+        "视觉呈现质量"
+      ]
+    },
+    
+    "operations_director": {
+      "role": "运营总监",
+      "skills_required": [
+        "chinese-social-media-automation",
+        "browse",
+        "web-scraper",
+        "financial-calculator"
+      ],
+      "responsibilities": [
+        "制定运营策略",
+        "管理现金流",
+        "协调营销活动",
+        "监控客户满意度"
+      ],
+      "performance_metrics": [
+        "现金流增长率",
+        "客户满意度",
+        "运营成本控制",
+        "团队效率"
+      ]
+    },
+    
+    "marketing_specialist": {
+      "role": "营销专家",
+      "skills_required": [
+        "chinese-social-media-automation",
+        "browse",
+        "content-id-guide",
+        "web-scraper"
+      ],
+      "responsibilities": [
+        "社交媒体运营",
+        "内容创作和发布",
+        "活动策划和执行",
+        "客户获取和转化"
+      ],
+      "performance_metrics": [
+        "社交媒体互动率",
+        "内容发布频率",
+        "客户获取成本",
+        "转化率"
+      ]
+    }
+  },
+  
+  "workflow_templates": {
+    "financing_pipeline": {
+      "name": "融资流程",
+      "steps": [
+        "市场研究和目标设定",
+        "投资人名单筛选",
+        "BP和材料准备",
+        "投资人接触和会议",
+        "跟进和谈判",
+        "文件签署和资金到位"
+      ],
+      "estimated_duration": "30-90天",
+      "success_rate_target": "20%"
+    },
+    
+    "operations_daily": {
+      "name": "日常运营",
+      "steps": [
+        "现金流监控",
+        "社交媒体内容发布",
+        "客户咨询处理",
+        "预订管理",
+        "客户反馈收集",
+        "数据分析和优化"
+      ],
+      "frequency": "每日",
+      "automation_level": "80%"
+    }
+  },
+  
+  "monitoring": {
+    "dashboard_url": "待创建",
+    "alert_channels": ["memory日志", "定期报告"],
+    "report_frequency": "每日",
+    "kpis": [
+      "融资进度",
+      "现金流状态",
+      "社交媒体表现",
+      "客户满意度",
+      "团队工作效率"
+    ]
+  },
+  
+  "next_steps": [
+    "创建第一批AI员工配置文件",
+    "设置任务分配系统",
+    "建立中央控制面板",
+    "开始测试运行",
+    "优化和扩展"
+  ]
+}

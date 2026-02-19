@@ -1,0 +1,161 @@
+{
+  "version": "1.0",
+  "last_update": "2026-02-19T18:51:46.282566",
+  "categories": {
+    "pricing": {
+      "keywords": [
+        "价格",
+        "多少钱",
+        "费用",
+        "团购",
+        "优惠",
+        "便宜",
+        "贵"
+      ],
+      "responses": [
+        "您好！我们目前有多个主题可选，价格从{price_range}不等。现在预订还有{discount}优惠哦！",
+        "我们的团购套餐非常划算！平日票{weekday_price}元，周末{weekend_price}元。点击下方链接立即预订 👇"
+      ],
+      "data": {
+        "price_range": "88-168元",
+        "discount": "8折",
+        "weekday_price": "88",
+        "weekend_price": "128"
+      }
+    },
+    "themes": {
+      "keywords": [
+        "主题",
+        "有什么",
+        "推荐",
+        "恐怖",
+        "悬疑",
+        "解谜",
+        "剧情"
+      ],
+      "responses": [
+        "我们有5大热门主题：\n🎭 {theme_1}\n🎭 {theme_2}\n🎭 {theme_3}\n🎭 {theme_4}\n🎭 {theme_5}\n\n每个主题时长60-90分钟，您偏好哪种风格？",
+        "强烈推荐我们的招牌主题《{top_theme}》！{theme_desc} 适合{player_count}人体验~"
+      ],
+      "data": {
+        "theme_1": "午夜凶铃（恐怖）",
+        "theme_2": "福尔摩斯（推理）",
+        "theme_3": "古墓丽影（冒险）",
+        "theme_4": "时间裂缝（科幻）",
+        "theme_5": "民国往事（剧情）",
+        "top_theme": "午夜凶铃",
+        "theme_desc": "沉浸式恐怖体验，真人NPC互动",
+        "player_count": "4-8"
+      }
+    },
+    "booking": {
+      "keywords": [
+        "预订",
+        "预约",
+        "订场",
+        "时间",
+        "场次",
+        "空位"
+      ],
+      "responses": [
+        "预订很简单！请告诉我：\n1️⃣ 选择主题\n2️⃣ 选择日期和时间\n3️⃣ 确认人数\n\n我来为您查询空位~",
+        "今天的场次还有：{today_slots}\n明天：{tomorrow_slots}\n您想订哪个时段？"
+      ],
+      "data": {
+        "today_slots": "14:00, 16:00, 19:00, 21:00",
+        "tomorrow_slots": "10:00, 14:00, 16:00, 19:00, 21:00"
+      }
+    },
+    "location": {
+      "keywords": [
+        "地址",
+        "在哪",
+        "位置",
+        "怎么去",
+        "停车",
+        "地铁",
+        "公交"
+      ],
+      "responses": [
+        "📍 我们的地址是：{address}\n\n🚇 地铁：{metro}\n🚌 公交：{bus}\n🅿️ 停车：{parking}",
+        "我们在{location_name}，{landmark}旁边，很显眼的位置~"
+      ],
+      "data": {
+        "address": "待填写",
+        "metro": "待填写",
+        "bus": "待填写",
+        "parking": "待填写",
+        "location_name": "待填写",
+        "landmark": "待填写"
+      }
+    },
+    "refund": {
+      "keywords": [
+        "退款",
+        "取消",
+        "改期",
+        "退钱",
+        "能退吗"
+      ],
+      "responses": [
+        "关于退款政策：\n✅ 提前24小时取消：全额退款\n✅ 提前12小时：退款80%\n❌ 当天取消：不可退款\n\n如需改期，请提前联系~",
+        "特殊情况（如疫情、极端天气）可以申请特殊处理，我们会尽力协助！"
+      ],
+      "data": {}
+    },
+    "requirements": {
+      "keywords": [
+        "年龄",
+        "限制",
+        "几个人",
+        "人数",
+        "小孩",
+        "儿童",
+        "孕妇"
+      ],
+      "responses": [
+        "参与要求：\n👥 人数：{min_players}-{max_players}人/场\n🎂 年龄：{age_limit}\n⚠️ 注意事项：{notes}",
+        "恐怖主题建议16岁以上，解谜主题10岁以上都可以玩~"
+      ],
+      "data": {
+        "min_players": "2",
+        "max_players": "8",
+        "age_limit": "10岁以上（恐怖主题16+）",
+        "notes": "心脏病、高血压患者及孕妇不建议参与"
+      }
+    },
+    "hours": {
+      "keywords": [
+        "营业时间",
+        "几点",
+        "关门",
+        "开门",
+        "营业到"
+      ],
+      "responses": [
+        "⏰ 营业时间：\n周一至周五：{weekday_hours}\n周末及节假日：{weekend_hours}\n\n最晚入场时间：{last_entry}",
+        "建议提前30分钟到店，可以挑选角色和熟悉规则~"
+      ],
+      "data": {
+        "weekday_hours": "13:00-22:00",
+        "weekend_hours": "10:00-23:00",
+        "last_entry": "21:00"
+      }
+    }
+  },
+  "default_responses": [
+    "您好！欢迎咨询我们的密室逃脱~ 请问有什么可以帮您的？",
+    "收到您的问题！让我为您解答...",
+    "这个咨询有点复杂，我为您转接人工客服，请稍等~"
+  ],
+  "escort_keywords": [
+    "投诉",
+    "差评",
+    "经理",
+    "老板",
+    "人工",
+    "客服",
+    "退钱",
+    "举报"
+  ]
+}

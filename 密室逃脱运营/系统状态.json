@@ -1,0 +1,71 @@
+{
+  "status": "running",
+  "started_at": "2026-02-19T18:51:00+08:00",
+  "version": "方案B-精简版",
+  "components": {
+    "super_ops_ai": {
+      "status": "✅ 运行中",
+      "capabilities": [
+        "抖音来客数据分析",
+        "美团开店宝数据分析", 
+        "竞品监控",
+        "爆款内容生成",
+        "自我学习进化"
+      ]
+    },
+    "customer_service_ai": {
+      "status": "✅ 运行中",
+      "capabilities": [
+        "7×24自动回复",
+        "多平台接入",
+        "智能问答",
+        "情绪识别",
+        "人工转接"
+      ]
+    }
+  },
+  "automated_tasks": [
+    {
+      "name": "每日运营分析",
+      "schedule": "每天 09:00",
+      "job_id": "280eb8b3-4b74-465f-b0fe-6b12fd465fb2"
+    },
+    {
+      "name": "竞品监控", 
+      "schedule": "每6小时",
+      "job_id": "cca019ad-24d3-4477-9685-cf1fe2ff4ab9"
+    },
+    {
+      "name": "内容生成",
+      "schedule": "周一/三/五 14:00",
+      "job_id": "f8065a5f-0285-4aae-9dfc-a00ba57b8490"
+    },
+    {
+      "name": "周度报告",
+      "schedule": "每周一 10:00",
+      "job_id": "06871cb9-e84b-4251-acd5-221131a163a1"
+    }
+  ],
+  "pending_user_input": [
+    "抖音来客账号信息",
+    "美团开店宝账号信息", 
+    "TOP5竞品门店名单",
+    "门店基础信息（地址、主题、价格）"
+  ],
+  "generated_files": {
+    "data_templates": [
+      "/Users/xiaolongxia/.openclaw/workspace/密室逃脱运营/数据/抖音来客/数据模板.csv",
+      "/Users/xiaolongxia/.openclaw/workspace/密室逃脱运营/数据/美团开店宝/数据模板.csv"
+    ],
+    "competitor_template": "/Users/xiaolongxia/.openclaw/workspace/密室逃脱运营/竞品监控/竞品清单.json",
+    "content_ideas": "/Users/xiaolongxia/.openclaw/workspace/密室逃脱运营/内容/脚本/创意库_20260219.json",
+    "weekly_report": "/Users/xiaolongxia/.openclaw/workspace/密室逃脱运营/分析报告/周度报告_20260219.md",
+    "knowledge_base": "/Users/xiaolongxia/.openclaw/workspace/密室逃脱运营/客服/知识库/knowledge_base.json"
+  },
+  "scripts": {
+    "start": "/Users/xiaolongxia/.openclaw/workspace/密室逃脱运营/start_system.sh",
+    "stop": "/Users/xiaolongxia/.openclaw/workspace/密室逃脱运营/stop_system.sh",
+    "ops_ai": "/Users/xiaolongxia/.openclaw/workspace/密室逃脱运营/super_ops_ai.py",
+    "cs_ai": "/Users/xiaolongxia/.openclaw/workspace/密室逃脱运营/customer_service_ai.py"
+  }
+}

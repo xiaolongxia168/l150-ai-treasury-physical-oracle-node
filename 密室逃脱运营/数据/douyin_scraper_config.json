@@ -1,0 +1,44 @@
+{
+  "login_url": "https://e.douyin.com/",
+  "data_pages": [
+    "/data/shop",
+    "/data/video",
+    "/data/live",
+    "/data/fans"
+  ],
+  "extract_fields": {
+    "video_data": [
+      "publish_time",
+      "title",
+      "play_count",
+      "like_count",
+      "comment_count",
+      "share_count",
+      "completion_rate",
+      "product_click",
+      "order_count",
+      "gmv"
+    ],
+    "fan_data": [
+      "date",
+      "total_fans",
+      "new_fans",
+      "fan_profile",
+      "active_time"
+    ],
+    "live_data": [
+      "date",
+      "duration",
+      "viewers",
+      "interaction_rate",
+      "conversion"
+    ],
+    "conversion_data": [
+      "date",
+      "gmv",
+      "orders",
+      "verification_rate",
+      "avg_price"
+    ]
+  }
+}
