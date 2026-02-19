@@ -1,24 +1,51 @@
 {
   "name": "merchant-dashboard-ai",
-  "displayName": "商家后台智能助手",
-  "description": "自动抓取抖音来客、美团开店宝全量数据，AI智能分析优化建议",
+  "displayName": "商家后台智能爬虫",
+  "description": "自动抓取抖音来客、美团开店宝全量数据，智能菜单发现，结构化数据提取",
   "version": "1.0.0",
-  "author": "OpenClaw AI",
-  "tags": ["automation", "e-commerce", "data-scraping", "ai-analysis", "douyin", "meituan"],
+  "author": "Claude Code + OpenClaw",
+  "tags": ["automation", "e-commerce", "data-scraping", "ai-crawler", "douyin", "meituan"],
   "openclaw": {
-    "emoji": "🏪",
+    "emoji": "🤖",
     "category": "business-automation",
     "requires": {
       "bins": ["python3"],
-      "packages": ["playwright", "pandas", "schedule"]
+      "packages": ["playwright"]
+    },
+    "commands": {
+      "crawl": {
+        "description": "运行智能爬虫",
+        "script": "./crawl.sh"
+      },
+      "list-tabs": {
+        "description": "查看浏览器标签页",
+        "script": "python3 scripts/list_tabs.py"
+      },
+      "view-data": {
+        "description": "查看抓取的数据",
+        "script": "ls -lh data/"
+      }
     }
   },
   "capabilities": [
     "智能全量数据抓取",
-    "自动菜单发现",
-    "递归页面导航",
-    "自动分页处理",
-    "AI数据分析",
-    "实时监控预警"
-  ]
+    "自动菜单发现（JavaScript扫描）",
+    "CDP浏览器连接",
+    "自动点击导航",
+    "表格和文本提取",
+    "自动截图记录",
+    "JSON结构化存储"
+  ],
+  "status": "active",
+  "lastUpdated": "2026-02-19",
+  "dataCollected": {
+    "douyin": {
+      "pages": 21,
+      "size": "73 KB"
+    },
+    "meituan": {
+      "pages": 9,
+      "size": "7.6 KB"
+    }
+  }
 }
