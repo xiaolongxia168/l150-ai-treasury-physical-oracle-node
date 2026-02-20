@@ -1,0 +1,72 @@
+{
+  "report_date": "2026-02-20",
+  "generated_at": "2026-02-20T09:00:00+08:00",
+  "shop_name": "有点方恐怖密室",
+  "summary": {
+    "total_revenue": 0,
+    "total_visits": 82,
+    "total_refund": 116.60,
+    "alert_count": 3
+  },
+  "platforms": {
+    "douyin": {
+      "status": "active",
+      "data": {
+        "deal_amount": 116.60,
+        "deal_count": 1,
+        "refund_amount": 116.60,
+        "net_revenue": 0,
+        "visit_count": 22,
+        "business_score": 135,
+        "account_balance": 1099.06,
+        "violation_status": "违规生效中"
+      },
+      "alerts": [
+        {
+          "level": "critical",
+          "type": "refund",
+          "message": "今日成交全额退款 ¥116.60"
+        },
+        {
+          "level": "critical",
+          "type": "violation",
+          "message": "违规状态生效中，需立即处理"
+        }
+      ]
+    },
+    "meituan": {
+      "status": "active",
+      "data": {
+        "visit_count": 60,
+        "order_amount": 0,
+        "business_score": 57.5,
+        "new_comments": 0,
+        "new_bad_comments": 0
+      },
+      "alerts": [
+        {
+          "level": "warning",
+          "type": "low_score",
+          "message": "经营评分偏低 57.5分"
+        },
+        {
+          "level": "warning",
+          "type": "zero_conversion",
+          "message": "60访问但0订单"
+        }
+      ]
+    }
+  },
+  "recommendations": [
+    "立即处理抖音违规状态",
+    "调查¥116.60退款原因",
+    "清理美团76条未读通知",
+    "制定美团评分提升计划",
+    "增加抖音内容发布频率"
+  ],
+  "trends": {
+    "revenue_change": -100,
+    "visit_change": 0,
+    "score_change": 0
+  }
+}
