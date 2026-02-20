@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-02-19T23:25:01Z",
+  "local_time": "Friday, February 20th, 2026 — 7:24 AM (Asia/Singapore)",
+  "status": "healthy",
+  "pid": 17961,
+  "port": 18789,
+  "probe": "ok",
+  "dashboard": "200 OK",
+  "action": "none_needed"
+}
