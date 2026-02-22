@@ -1,0 +1,53 @@
+# 高质量视频生成技能清单
+
+## 核心视频生成技能
+1. clawvid - https://github.com/neur0map/clawvid
+   - AI Skill to create short-form video generation with OpenClaw
+
+2. grok-imagine-video - https://github.com/DevvGwardo/grok-imagine-video
+   - Video generation skill for OpenClaw using xAI's Grok Imagine API
+
+3. Seedance2-skill - https://github.com/zhanghaonan777/Seedance2-skill
+   - Seedance2 视频创意技能包：100+ 镜头词库、Seedance 2.0 全模态 API CLI
+
+4. veo-video-generator - https://github.com/kghamilton89/veo-video-generator
+   - OpenClaw Skill to generate videos using Google's Veo model and the Gemini API
+
+5. renderful-ai-skill - https://github.com/luv005/renderful-ai-skill
+   - Generate AI images and videos via renderful.ai API
+
+## 视频处理与编辑技能
+6. video-frames - 已存在 (全局技能库)
+   - Extract frames or short clips from videos using ffmpeg
+
+7. deapi-clawdbot-skill - https://github.com/zrewolwerowanykaloryfer/deapi-clawdbot-skill
+   - deAPI AI Media Suite for transcription, image generation, TTS, OCR, video
+
+8. video-uploader-skill - https://github.com/lijingpan/video-uploader-skill
+   - Automated video upload to social media platforms
+
+9. video-audio-extractor - https://github.com/kantylee/video-audio-extractor
+   - 從視頻提取音頻的 OpenClaw Skill
+
+## 视频内容处理技能
+10. youtube-skills - https://github.com/ZeroPointRepo/youtube-skills
+    - YouTube Transcript API skills for AI agents
+
+11. openclaw-skill-youtube - https://github.com/happynocode/openclaw-skill-youtube
+    - OpenClaw skill for YouTube video transcript and summary
+
+12. douyin-video-fetch - https://github.com/KAMIENDER/douyin-video-fetch
+    - OpenClaw 技能：支持通过 URL 或 video_id 下载抖音视频
+
+13. assemblyai-cli - https://github.com/diskd-ai/assemblyai-cli
+    - Rust CLI + Agent Skill to transcribe audio/video via AssemblyAI
+
+## 特殊视频技能
+14. videochat-withme - https://github.com/sxu75374/videochat-withme
+    - Real-time AI video chat skill for OpenClaw
+
+15. grok-video-skill - https://github.com/SuperNovaRobot/grok-video-skill
+    - OpenClaw skill: grok-video (CDP-first Grok Imagine multi-scene video automation)
+
+16. viralclaw-openclaw-skill - https://github.com/viralclaw/openclaw-skill
+    - OpenClaw skill for ViralClaw – AI-powered viral video captions API

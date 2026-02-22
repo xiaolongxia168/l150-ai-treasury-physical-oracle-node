@@ -1,0 +1,14 @@
+node_modules/
+dist/
+output/
+.env
+*.mp4
+*.mp3
+*.wav
+*.png
+*.jpg
+*.jpeg
+preview/
+.DS_Store
+*.log
+preferences.json
